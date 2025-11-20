@@ -74,6 +74,75 @@ export OPENAI_API_KEY=sk-xxxx
    ```
    CLI commands: `stats`, `rebuild`, `quit`, plus free-form questions (“眼睛刺痛怎么办?”).
 
+## Architecture Diagram
+
+```mermaid
+flowchart TD
+    START["🚀 Start Graph RAG system"] --> CONFIG["⚙️ Load config<br/>GraphRAGConfig"]
+    CONFIG --> INIT_CHECK{"🔍 Dependency check"}
+    INIT_CHECK -->|Neo4j failed| NEO4J_ERROR["❌ Neo4j error<br/>Check graph DB"]
+    INIT_CHECK -->|Milvus failed| MILVUS_ERROR["❌ Milvus error<br/>Check vector DB"]
+    INIT_CHECK -->|LLM failed| LLM_ERROR["❌ LLM error<br/>Check API key"]
+    INIT_CHECK -->|OK| INIT_MODULES["✅ Init core modules"]
+    INIT_MODULES --> KB_CHECK{"📚 Knowledge base status"}
+    KB_CHECK -->|Collection exists| LOAD_KB["⚡ Load existing KB"]
+    KB_CHECK -->|No collection| BUILD_KB["🔨 Build/refresh KB"]
+    LOAD_KB --> LOAD_SUCCESS{"Load success?"}
+    LOAD_SUCCESS -->|Yes| SYSTEM_READY["✅ Ready<br/>Show stats"]
+    LOAD_SUCCESS -->|No| REBUILD_KB["🔄 Rebuild KB"]
+    BUILD_KB --> INGEST_FLOW["📥 Ingest entry<br/>ingest.py --domain medical"]
+    REBUILD_KB --> INGEST_FLOW
+    INGEST_FLOW --> MARKDOWN_LOAD["📄 Read Markdown<br/>demo_data/eyes.md"]
+    MARKDOWN_LOAD --> NANO_GRAPHRAG["🧩 nano_graphrag extract<br/>chunks + entities/relations"]
+    NANO_GRAPHRAG --> NEO4J_LOAD["🔗 Write Neo4j<br/>Disease/Symptom/..."]
+    NEO4J_LOAD --> BUILD_DOCS["📝 Build structured docs<br/>symptoms/treatments/risks/care"]
+    BUILD_DOCS --> CHUNK_DOCS["✂️ Chunk docs"]
+    CHUNK_DOCS --> BUILD_VECTOR["🎯 Build Milvus index"]
+    BUILD_VECTOR --> SYSTEM_READY
+    SYSTEM_READY --> USER_INPUT["👤 User query"]
+    USER_INPUT --> SPECIAL_CMD{"🔍 Special command?"}
+    SPECIAL_CMD -->|stats| STATS["📊 Stats"]
+    SPECIAL_CMD -->|rebuild| REBUILD_CMD["🔄 Rebuild KB command"]
+    SPECIAL_CMD -->|quit| EXIT["👋 Exit"]
+    SPECIAL_CMD -->|normal query| QUERY_ANALYSIS["🧠 Query analysis"]
+    QUERY_ANALYSIS --> COMPLEXITY_ANALYSIS["📊 Complexity"]
+    QUERY_ANALYSIS --> RELATION_ANALYSIS["🔗 Relation density"]
+    QUERY_ANALYSIS --> REASONING_ANALYSIS["🤔 Reasoning need"]
+    QUERY_ANALYSIS --> ENTITY_ANALYSIS["🏷️ Entity count"]
+    COMPLEXITY_ANALYSIS --> LLM_ANALYSIS["🤖 LLM analysis"]
+    RELATION_ANALYSIS --> LLM_ANALYSIS
+    REASONING_ANALYSIS --> LLM_ANALYSIS
+    ENTITY_ANALYSIS --> LLM_ANALYSIS
+    LLM_ANALYSIS --> ANALYSIS_SUCCESS{"Analysis OK?"}
+    ANALYSIS_SUCCESS -->|Yes| ROUTE_DECISION["🎯 Routing decision"]
+    ANALYSIS_SUCCESS -->|No| RULE_FALLBACK["📋 Rule-based fallback"]
+    RULE_FALLBACK --> ROUTE_DECISION
+    ROUTE_DECISION -->|Simple| HYBRID_SEARCH["🔍 Hybrid search"]
+    ROUTE_DECISION -->|Complex| GRAPH_RAG_SEARCH["🕸️ Graph RAG search"]
+    ROUTE_DECISION -->|Mixed| COMBINED_SEARCH["🔄 Combined search"]
+    HYBRID_SEARCH --> HYBRID_SUCCESS{"Success?"}
+    GRAPH_RAG_SEARCH --> GRAPH_SUCCESS{"Success?"}
+    COMBINED_SEARCH --> COMBINED_SUCCESS{"Success?"}
+    GRAPH_SUCCESS -->|Fail| FALLBACK_TO_HYBRID["⬇️ Fallback to hybrid"]
+    COMBINED_SUCCESS -->|Fail| FALLBACK_TO_HYBRID
+    HYBRID_SUCCESS -->|Fail| SYSTEM_ERROR["❌ Hybrid failed"]
+    FALLBACK_TO_HYBRID --> FALLBACK_SUCCESS{"Success?"}
+    FALLBACK_SUCCESS -->|Fail| SYSTEM_ERROR
+    HYBRID_SUCCESS -->|Yes| GENERATE["🎨 LLM answer"]
+    GRAPH_SUCCESS -->|Yes| GENERATE
+    COMBINED_SUCCESS -->|Yes| GENERATE
+    FALLBACK_SUCCESS -->|Yes| GENERATE
+    GENERATE --> STREAM_OUTPUT["📺 Stream output"]
+    STREAM_OUTPUT --> UPDATE_STATS["📈 Update stats"]
+    UPDATE_STATS --> USER_INPUT
+    STATS --> USER_INPUT
+    REBUILD_CMD --> BUILD_KB
+    NEO4J_ERROR --> EXIT
+    MILVUS_ERROR --> EXIT
+    LLM_ERROR --> EXIT
+    SYSTEM_ERROR --> USER_INPUT
+```
+
 ## Troubleshooting
 
 | Symptom | Fix |
