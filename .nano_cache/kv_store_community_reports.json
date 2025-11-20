@@ -1,0 +1,325 @@
+{
+  "0": {
+    "report_string": "# Conjunctivitis and Eye Health Management\n\nThis community revolves around conjunctivitis, a common inflammation of the conjunctiva caused by bacteria, viruses, or allergens, with entities relating to its symptoms, treatments, and preventive measures. Other related eye conditions, such as asthenopia (eye strain), and their management practices are also part of this network.\n\n## Conjunctivitis: A highly contagious eye disease\n\nConjunctivitis, commonly known as pink eye, is characterized by symptoms like red eyes, tearing, and increased discharge. It is highly contagious, especially when caused by viruses. The inflammation occurs in the conjunctiva, which is the clear tissue covering the white part of the eye and lining the inside of the eyelids. Managing conjunctivitis involves understanding its symptoms and causes, which vary from bacterial and viral infections to allergies.\n\n## Common symptoms associated with conjunctivitis\n\nIncreased discharge, red eye, and tearing are typical symptoms of conjunctivitis. The presence of these symptoms indicates irritation and possible infection in the eye. The discharge is often more noticeable in bacterial conjunctivitis, whereas a red eye and tearing can indicate either viral or allergic causes. Recognition of these symptoms is important for timely diagnosis and treatment to prevent further spreading.\n\n## Treatment options for conjunctivitis\n\nVarious treatments exist depending on the cause of conjunctivitis. Bacterial conjunctivitis is commonly treated with antibiotics like Tobramycin, while viral forms are generally managed with cold compresses and artificial tears. Allergic conjunctivitis can be alleviated with antihistamine eye drops. Effective management requires appropriate medical evaluation to determine the underlying cause and implement the correct treatment strategy.\n\n## Preventive measures for conjunctivitis\n\nPreventing the spread of conjunctivitis involves recommending practices such as not rubbing the eyes and frequent hand washing. These measures help minimize transmission and reduce symptom severity. It is especially important in environments where close contact with others is frequent, such as schools or offices.\n\n## Asthenopia and its link to modern lifestyle\n\nAsthenopia, or eye strain, results from prolonged near work, such as reading or using digital screens. It can lead to discomfort and dryness. With increasing screen time being a part of modern life, this condition is becoming more prevalent. The 20-20-20 rule suggests taking breaks by looking at something 20 feet away for 20 seconds every 20 minutes, helping to alleviate symptoms associated with eye strain.",
+    "report_json": {
+      "title": "Conjunctivitis and Eye Health Management",
+      "summary": "This community revolves around conjunctivitis, a common inflammation of the conjunctiva caused by bacteria, viruses, or allergens, with entities relating to its symptoms, treatments, and preventive measures. Other related eye conditions, such as asthenopia (eye strain), and their management practices are also part of this network.",
+      "rating": 6.0,
+      "rating_explanation": "The impact severity rating is moderate due to the high prevalence and contagious nature of conjunctivitis, particularly its viral form, alongside effective preventive and treatment measures.",
+      "findings": [
+        {
+          "summary": "Conjunctivitis: A highly contagious eye disease",
+          "explanation": "Conjunctivitis, commonly known as pink eye, is characterized by symptoms like red eyes, tearing, and increased discharge. It is highly contagious, especially when caused by viruses. The inflammation occurs in the conjunctiva, which is the clear tissue covering the white part of the eye and lining the inside of the eyelids. Managing conjunctivitis involves understanding its symptoms and causes, which vary from bacterial and viral infections to allergies."
+        },
+        {
+          "summary": "Common symptoms associated with conjunctivitis",
+          "explanation": "Increased discharge, red eye, and tearing are typical symptoms of conjunctivitis. The presence of these symptoms indicates irritation and possible infection in the eye. The discharge is often more noticeable in bacterial conjunctivitis, whereas a red eye and tearing can indicate either viral or allergic causes. Recognition of these symptoms is important for timely diagnosis and treatment to prevent further spreading."
+        },
+        {
+          "summary": "Treatment options for conjunctivitis",
+          "explanation": "Various treatments exist depending on the cause of conjunctivitis. Bacterial conjunctivitis is commonly treated with antibiotics like Tobramycin, while viral forms are generally managed with cold compresses and artificial tears. Allergic conjunctivitis can be alleviated with antihistamine eye drops. Effective management requires appropriate medical evaluation to determine the underlying cause and implement the correct treatment strategy."
+        },
+        {
+          "summary": "Preventive measures for conjunctivitis",
+          "explanation": "Preventing the spread of conjunctivitis involves recommending practices such as not rubbing the eyes and frequent hand washing. These measures help minimize transmission and reduce symptom severity. It is especially important in environments where close contact with others is frequent, such as schools or offices."
+        },
+        {
+          "summary": "Asthenopia and its link to modern lifestyle",
+          "explanation": "Asthenopia, or eye strain, results from prolonged near work, such as reading or using digital screens. It can lead to discomfort and dryness. With increasing screen time being a part of modern life, this condition is becoming more prevalent. The 20-20-20 rule suggests taking breaks by looking at something 20 feet away for 20 seconds every 20 minutes, helping to alleviate symptoms associated with eye strain."
+        }
+      ]
+    },
+    "level": 0,
+    "title": "Cluster 0",
+    "edges": [
+      [
+        "\"COLD COMPRESS AND ARTIFICIAL TEARS\"",
+        "\"CONJUNCTIVITIS\""
+      ],
+      [
+        "\"干涩\"",
+        "\"视疲劳\""
+      ],
+      [
+        "\"20-20-20 规则\"",
+        "\"视疲劳\""
+      ],
+      [
+        "\"CONJUNCTIVITIS\"",
+        "\"RED EYE\""
+      ],
+      [
+        "\"ANTIHISTAMINE EYE DROPS\"",
+        "\"CONJUNCTIVITIS\""
+      ],
+      [
+        "\"CONJUNCTIVITIS\"",
+        "\"TOBRAMYCIN\""
+      ],
+      [
+        "\"CONJUNCTIVITIS\"",
+        "\"INCREASED DISCHARGE\""
+      ],
+      [
+        "\"屏幕亮度＞环境亮度\"",
+        "\"视疲劳\""
+      ],
+      [
+        "\"CONJUNCTIVITIS\"",
+        "\"DON'T RUB EYES, WASH HANDS FREQUENTLY\""
+      ],
+      [
+        "\"CONJUNCTIVITIS\"",
+        "\"TEARING\""
+      ]
+    ],
+    "nodes": [
+      "\"RED EYE\"",
+      "\"视疲劳\"",
+      "\"20-20-20 规则\"",
+      "\"TOBRAMYCIN\"",
+      "\"屏幕亮度＞环境亮度\"",
+      "\"CONJUNCTIVITIS\"",
+      "\"TEARING\"",
+      "\"INCREASED DISCHARGE\""
+    ],
+    "chunk_ids": [
+      "chunk-e77d1f3c5382de7ff101a5d80ba235f2",
+      "chunk-75f6731a3cf6140e1f7114b41c057be9",
+      "chunk-b8fcfd70bf8f25b10d5b16b47ebc6f66",
+      "chunk-caf7cd8fa65d1bed5acb7334c70a8831",
+      "chunk-dbc5bf9b1f8e6cc1cba4e23d6687fc24",
+      "chunk-aa0f70323f6e60f94966b93bfd7381b0"
+    ],
+    "occurrence": 0.8571428571428571,
+    "sub_communities": []
+  },
+  "1": {
+    "report_string": "# Keratitis and Associated Risks\n\nThe community is centered around keratitis, an inflammation of the cornea that can be caused by various factors including viral infections and improper use of contact lenses. Key entities include keratitis itself, levofloxacin eye drops used for treatment, corneal ulcers as a complication, and the risk factor of contact lens misuse. These interconnected entities emphasize the importance of diagnosis, proper usage of contact lenses, and timely treatment to prevent complications.\n\n## Keratitis as a central entity\n\nKeratitis, or inflammation of the cornea, acts as a central entity within the community. It is primarily significant due to its prevalence and the variety of underlying causes, such as bacterial, viral, or fungal infections and improper contact lens use. This inflammation can lead to serious eye complications, including the development of corneal ulcers if left untreated, underscoring the need for awareness and informed healthcare decisions.\n\n## Role of levofloxacin eye drops\n\nLevofloxacin eye drops are identified as a key therapeutic agent in the treatment of bacterial keratitis. These drops are critical in managing bacterial infections of the cornea, preventing the progression of keratitis into more serious conditions. Their usage highlights the importance of appropriate medical interventions in managing and resolving bacterial causes of keratitis effectively.\n\n## Complications leading to corneal ulcers\n\nCorneal ulcers represent a severe complication that can arise from untreated keratitis. These ulcers are characterized by open sores on the cornea, leading to significant eye discomfort and potential vision loss. The relationship between keratitis and corneal ulcers stresses the importance of early detection and treatment of corneal inflammations to avert such detrimental developments.\n\n## Improper contact lens use as a risk factor\n\nThe use of contact lenses is common, but improper handling and hygiene can significantly increase the risk of developing keratitis. This risk factor emphasizes the need for vigilant and proper contact lens care to prevent corneal infections. Users are advised to follow strict hygienic protocols and seek immediate medical attention if they experience any symptoms of eye infection.\n\n## Viral infections contributing to keratitis\n\nViruses, such as the varicella-zoster virus, are noted contributors to keratitis, demonstrating the multi-faceted nature of the disease's etiology. Viral-induced keratitis requires specific antiviral treatments and can complicate the disease's clinical course. Awareness of viral risk factors and symptoms can aid in early diagnosis and prevention of severe outcomes.",
+    "report_json": {
+      "title": "Keratitis and Associated Risks",
+      "summary": "The community is centered around keratitis, an inflammation of the cornea that can be caused by various factors including viral infections and improper use of contact lenses. Key entities include keratitis itself, levofloxacin eye drops used for treatment, corneal ulcers as a complication, and the risk factor of contact lens misuse. These interconnected entities emphasize the importance of diagnosis, proper usage of contact lenses, and timely treatment to prevent complications.",
+      "rating": 7.5,
+      "rating_explanation": "The impact severity rating is high due to the potential for serious eye complications and the need for effective management in preventing keratitis progressions.",
+      "findings": [
+        {
+          "summary": "Keratitis as a central entity",
+          "explanation": "Keratitis, or inflammation of the cornea, acts as a central entity within the community. It is primarily significant due to its prevalence and the variety of underlying causes, such as bacterial, viral, or fungal infections and improper contact lens use. This inflammation can lead to serious eye complications, including the development of corneal ulcers if left untreated, underscoring the need for awareness and informed healthcare decisions."
+        },
+        {
+          "summary": "Role of levofloxacin eye drops",
+          "explanation": "Levofloxacin eye drops are identified as a key therapeutic agent in the treatment of bacterial keratitis. These drops are critical in managing bacterial infections of the cornea, preventing the progression of keratitis into more serious conditions. Their usage highlights the importance of appropriate medical interventions in managing and resolving bacterial causes of keratitis effectively."
+        },
+        {
+          "summary": "Complications leading to corneal ulcers",
+          "explanation": "Corneal ulcers represent a severe complication that can arise from untreated keratitis. These ulcers are characterized by open sores on the cornea, leading to significant eye discomfort and potential vision loss. The relationship between keratitis and corneal ulcers stresses the importance of early detection and treatment of corneal inflammations to avert such detrimental developments."
+        },
+        {
+          "summary": "Improper contact lens use as a risk factor",
+          "explanation": "The use of contact lenses is common, but improper handling and hygiene can significantly increase the risk of developing keratitis. This risk factor emphasizes the need for vigilant and proper contact lens care to prevent corneal infections. Users are advised to follow strict hygienic protocols and seek immediate medical attention if they experience any symptoms of eye infection."
+        },
+        {
+          "summary": "Viral infections contributing to keratitis",
+          "explanation": "Viruses, such as the varicella-zoster virus, are noted contributors to keratitis, demonstrating the multi-faceted nature of the disease's etiology. Viral-induced keratitis requires specific antiviral treatments and can complicate the disease's clinical course. Awareness of viral risk factors and symptoms can aid in early diagnosis and prevention of severe outcomes."
+        }
+      ]
+    },
+    "level": 0,
+    "title": "Cluster 1",
+    "edges": [
+      [
+        "\"角膜溃疡\"",
+        "\"角膜炎\""
+      ],
+      [
+        "\"左氧氟沙星滴眼液\"",
+        "\"角膜炎\""
+      ],
+      [
+        "\"水痘带状疱疹病毒感染\"",
+        "\"角膜炎\""
+      ],
+      [
+        "\"角膜炎\"",
+        "\"隐形眼镜\""
+      ]
+    ],
+    "nodes": [
+      "\"角膜溃疡\"",
+      "\"角膜炎\"",
+      "\"隐形眼镜\"",
+      "\"左氧氟沙星滴眼液\""
+    ],
+    "chunk_ids": [
+      "chunk-cd0156919c64c8e718c9e6d1c0c8b708",
+      "chunk-7c4c91ada27639febcdddce75f271dc9",
+      "chunk-caf7cd8fa65d1bed5acb7334c70a8831",
+      "chunk-f24488d66f87e9bf197e4c83ba7931ab",
+      "chunk-5c6ef4c5e4f89411b668600a5e936e7a",
+      "chunk-f38eaf180013e828608049adaeefcda0"
+    ],
+    "occurrence": 0.8571428571428571,
+    "sub_communities": []
+  },
+  "2": {
+    "report_string": "# Exposure Keratitis and Associated Conditions\n\nThis community revolves around Exposure Keratitis, a condition characterized by insufficient eyelid closure leading to corneal dryness and inflammation. Key entities include symptoms such as dryness and photophobia, and related conditions like facial palsy, while treatment methods involve the use of lubricants. The interconnectedness of these entities highlights the complex nature of managing and understanding Exposure Keratitis.\n\n## Key symptoms associated with Exposure Keratitis\n\nExposure Keratitis presents with symptoms such as dryness and photophobia. Dryness results from the prolonged exposure of the cornea due to incomplete eyelid closure and leads to significant discomfort. Similarly, photophobia, which is a heightened sensitivity to light, is a typical symptom that can severely impact daily activities. Understanding these symptoms is critical for diagnosing and managing the condition effectively.\n\n## Role of facial palsy in Exposure Keratitis\n\nFacial palsy is an identified risk factor for Exposure Keratitis due to its role in causing incomplete eyelid closure. This leads to the cornea being exposed and vulnerable to dryness and subsequent inflammation. Patients with facial palsy need careful monitoring for the development of Exposure Keratitis to prevent further complications and preserve vision.\n\n## Treatment strategies involving lubricants\n\nLubricants are a recommended treatment for managing Exposure Keratitis. They help in relieving dryness by providing essential moisture and protection to the cornea. Their use is pivotal in the therapeutic approach to mitigate the symptoms and prevent further corneal damage, thereby enhancing patient comfort and quality of life.\n\n## Interrelationship with photophobia and its implications\n\nPhotophobia as a symptom often accompanies conditions like Exposure Keratitis and can exacerbate the patient's discomfort. The understanding of its occurrence alongside dryness is essential for a comprehensive treatment plan. It indicates the need for protective measures against light exposure to alleviate patient symptoms and improve life quality.\n\n## Impact of related conditions on eye health\n\nThe presence of related conditions such as exposure to certain infections can complicate the symptomatology of Exposure Keratitis. For example, infections like ocular shingles are associated with symptoms such as photophobia, which can overlap with those of keratitis, making diagnosis and treatment challenging. Proper differentiation and management of these overlapping conditions are necessary to ensure effective treatment outcomes.",
+    "report_json": {
+      "title": "Exposure Keratitis and Associated Conditions",
+      "summary": "This community revolves around Exposure Keratitis, a condition characterized by insufficient eyelid closure leading to corneal dryness and inflammation. Key entities include symptoms such as dryness and photophobia, and related conditions like facial palsy, while treatment methods involve the use of lubricants. The interconnectedness of these entities highlights the complex nature of managing and understanding Exposure Keratitis.",
+      "rating": 6.5,
+      "rating_explanation": "The impact severity rating is moderately high due to the commonality and disruptive nature of the symptoms which could significantly affect quality of life.",
+      "findings": [
+        {
+          "summary": "Key symptoms associated with Exposure Keratitis",
+          "explanation": "Exposure Keratitis presents with symptoms such as dryness and photophobia. Dryness results from the prolonged exposure of the cornea due to incomplete eyelid closure and leads to significant discomfort. Similarly, photophobia, which is a heightened sensitivity to light, is a typical symptom that can severely impact daily activities. Understanding these symptoms is critical for diagnosing and managing the condition effectively."
+        },
+        {
+          "summary": "Role of facial palsy in Exposure Keratitis",
+          "explanation": "Facial palsy is an identified risk factor for Exposure Keratitis due to its role in causing incomplete eyelid closure. This leads to the cornea being exposed and vulnerable to dryness and subsequent inflammation. Patients with facial palsy need careful monitoring for the development of Exposure Keratitis to prevent further complications and preserve vision."
+        },
+        {
+          "summary": "Treatment strategies involving lubricants",
+          "explanation": "Lubricants are a recommended treatment for managing Exposure Keratitis. They help in relieving dryness by providing essential moisture and protection to the cornea. Their use is pivotal in the therapeutic approach to mitigate the symptoms and prevent further corneal damage, thereby enhancing patient comfort and quality of life."
+        },
+        {
+          "summary": "Interrelationship with photophobia and its implications",
+          "explanation": "Photophobia as a symptom often accompanies conditions like Exposure Keratitis and can exacerbate the patient's discomfort. The understanding of its occurrence alongside dryness is essential for a comprehensive treatment plan. It indicates the need for protective measures against light exposure to alleviate patient symptoms and improve life quality."
+        },
+        {
+          "summary": "Impact of related conditions on eye health",
+          "explanation": "The presence of related conditions such as exposure to certain infections can complicate the symptomatology of Exposure Keratitis. For example, infections like ocular shingles are associated with symptoms such as photophobia, which can overlap with those of keratitis, making diagnosis and treatment challenging. Proper differentiation and management of these overlapping conditions are necessary to ensure effective treatment outcomes."
+        }
+      ]
+    },
+    "level": 0,
+    "title": "Cluster 2",
+    "edges": [
+      [
+        "\"干涩\"",
+        "\"视疲劳\""
+      ],
+      [
+        "\"暴露性角膜炎\"",
+        "\"润滑剂\""
+      ],
+      [
+        "\"干涩\"",
+        "\"暴露性角膜炎\""
+      ],
+      [
+        "\"水痘带状疱疹病毒感染\"",
+        "\"畏光\""
+      ],
+      [
+        "\"暴露性角膜炎\"",
+        "\"面瘫\""
+      ],
+      [
+        "\"暴露性角膜炎\"",
+        "\"畏光\""
+      ]
+    ],
+    "nodes": [
+      "\"干涩\"",
+      "\"润滑剂\"",
+      "\"面瘫\"",
+      "\"暴露性角膜炎\"",
+      "\"畏光\""
+    ],
+    "chunk_ids": [
+      "chunk-e77d1f3c5382de7ff101a5d80ba235f2",
+      "chunk-cd0156919c64c8e718c9e6d1c0c8b708",
+      "chunk-aa0f70323f6e60f94966b93bfd7381b0",
+      "chunk-caf7cd8fa65d1bed5acb7334c70a8831",
+      "chunk-f24488d66f87e9bf197e4c83ba7931ab",
+      "chunk-5c6ef4c5e4f89411b668600a5e936e7a",
+      "chunk-2313ad1623326dc0a7de64029c981e07"
+    ],
+    "occurrence": 1.0,
+    "sub_communities": []
+  },
+  "3": {
+    "report_string": "# Ocular Varicella-Zoster Infections and Associated Conditions\n\nThis community is focused on diseases and conditions associated with varicella-zoster virus infections, particularly affecting the eye, and includes entities such as ocular shingles, diplopia (double vision), optic atrophy, and photophobia. The interrelated conditions highlight the complex pathophysiology of viral infection impact on ocular and neurological health, as well as therapeutic measures, notably the use of oral acyclovir.\n\n## Varicella-Zoster Virus Impact on Ocular Health\n\nThe varicella-zoster virus is a critical entity because it leads to severe ocular conditions such as keratitis and photophobia. The viral infection's capacity to inflame the cornea (keratitis) underscores its role in serious vision-affecting conditions. Additionally, photophobia as a symptom suggests significant discomfort and visual challenges, which collectively highlight the virus's impact on individuals' ocular health.\n\n## Diplopia as a Symptom and Its Associations\n\nDiplopia, or double vision, is depicted as a common symptom arising from conditions tied to varicella-zoster virus infections and its complications like optic neuropathy and posterior synechiae. This highlights the interconnectedness of neural and ocular complications, exacerbating visual disturbances. Understanding these associations is vital for managing symptoms effectively and improving patient outcomes.\n\n## Optic Atrophy as a Severe Outcome\n\nOptic atrophy emerges as a severe outcome of the virus's impact, potentially linked to diplopia due to burden on visual pathways. Ocular shingles can exacerbate this condition, underscoring a complex interaction between viral infection and long-term neural damage. The irreversible nature of optic atrophy makes early recognition and intervention crucial, thereby emphasizing the need for diligent monitoring and treatment in at-risk patients.\n\n## Role of Oral Acyclovir in Treatment\n\nOral acyclovir is presented as a recommended antiviral intervention for ocular infections caused by the varicella-zoster virus, like shingles. Its role in inhibiting viral replication is crucial for minimizing the condition's progression and discomfort. This medication's effectiveness is pivotal in therapeutic strategies, aiming to lessen both immediate symptoms and future neural damage risk.\n\n## Long-term Neuropathic Pain Risk\n\nChronic nerve pain (neuralgia) is indicated as a possible consequence of varicella-zoster infections, adding another layer of complexity to patient management. This risk necessitates preventive measures and awareness of the persistent neural pathology's extensive implications, highlighting the far-reaching effects of the virus on both ocular and systemic levels.",
+    "report_json": {
+      "title": "Ocular Varicella-Zoster Infections and Associated Conditions",
+      "summary": "This community is focused on diseases and conditions associated with varicella-zoster virus infections, particularly affecting the eye, and includes entities such as ocular shingles, diplopia (double vision), optic atrophy, and photophobia. The interrelated conditions highlight the complex pathophysiology of viral infection impact on ocular and neurological health, as well as therapeutic measures, notably the use of oral acyclovir.",
+      "rating": 7.5,
+      "rating_explanation": "The impact severity rating is high due to the significant health implications of the diseases and conditions involved, affecting both vision and quality of life.",
+      "findings": [
+        {
+          "summary": "Varicella-Zoster Virus Impact on Ocular Health",
+          "explanation": "The varicella-zoster virus is a critical entity because it leads to severe ocular conditions such as keratitis and photophobia. The viral infection's capacity to inflame the cornea (keratitis) underscores its role in serious vision-affecting conditions. Additionally, photophobia as a symptom suggests significant discomfort and visual challenges, which collectively highlight the virus's impact on individuals' ocular health."
+        },
+        {
+          "summary": "Diplopia as a Symptom and Its Associations",
+          "explanation": "Diplopia, or double vision, is depicted as a common symptom arising from conditions tied to varicella-zoster virus infections and its complications like optic neuropathy and posterior synechiae. This highlights the interconnectedness of neural and ocular complications, exacerbating visual disturbances. Understanding these associations is vital for managing symptoms effectively and improving patient outcomes."
+        },
+        {
+          "summary": "Optic Atrophy as a Severe Outcome",
+          "explanation": "Optic atrophy emerges as a severe outcome of the virus's impact, potentially linked to diplopia due to burden on visual pathways. Ocular shingles can exacerbate this condition, underscoring a complex interaction between viral infection and long-term neural damage. The irreversible nature of optic atrophy makes early recognition and intervention crucial, thereby emphasizing the need for diligent monitoring and treatment in at-risk patients."
+        },
+        {
+          "summary": "Role of Oral Acyclovir in Treatment",
+          "explanation": "Oral acyclovir is presented as a recommended antiviral intervention for ocular infections caused by the varicella-zoster virus, like shingles. Its role in inhibiting viral replication is crucial for minimizing the condition's progression and discomfort. This medication's effectiveness is pivotal in therapeutic strategies, aiming to lessen both immediate symptoms and future neural damage risk."
+        },
+        {
+          "summary": "Long-term Neuropathic Pain Risk",
+          "explanation": "Chronic nerve pain (neuralgia) is indicated as a possible consequence of varicella-zoster infections, adding another layer of complexity to patient management. This risk necessitates preventive measures and awareness of the persistent neural pathology's extensive implications, highlighting the far-reaching effects of the virus on both ocular and systemic levels."
+        }
+      ]
+    },
+    "level": 0,
+    "title": "Cluster 3",
+    "edges": [
+      [
+        "\"复视\"",
+        "\"葡萄膜后粘连\""
+      ],
+      [
+        "\"眼部带状疱疹\"",
+        "\"视神经萎缩\""
+      ],
+      [
+        "\"水痘带状疱疹病毒感染\"",
+        "\"畏光\""
+      ],
+      [
+        "\"复视\"",
+        "\"视神经萎缩\""
+      ],
+      [
+        "\"眼部带状疱疹\"",
+        "\"阿昔洛韦口服\""
+      ],
+      [
+        "\"水痘带状疱疹病毒感染\"",
+        "\"角膜炎\""
+      ],
+      [
+        "\"水痘带状疱疹病毒感染\"",
+        "\"阿昔洛韦口服\""
+      ],
+      [
+        "\"水痘带状疱疹病毒感染\"",
+        "\"长期神经痛\""
+      ]
+    ],
+    "nodes": [
+      "\"阿昔洛韦口服\"",
+      "\"复视\"",
+      "\"葡萄膜后粘连\"",
+      "\"眼部带状疱疹\"",
+      "\"长期神经痛\"",
+      "\"水痘带状疱疹病毒感染\"",
+      "\"视神经萎缩\""
+    ],
+    "chunk_ids": [
+      "chunk-cd0156919c64c8e718c9e6d1c0c8b708",
+      "chunk-2313ad1623326dc0a7de64029c981e07",
+      "chunk-5c6ef4c5e4f89411b668600a5e936e7a",
+      "chunk-64a74a6c5b5fe4c5d14ae6a97ebcb359"
+    ],
+    "occurrence": 0.5714285714285714,
+    "sub_communities": []
+  }
+}

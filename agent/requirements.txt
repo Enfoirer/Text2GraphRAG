@@ -1,0 +1,6 @@
+pandas==2.3.1
+pathlib2==2.3.6
+neo4j==5.28.1
+requests==2.32.4
+dataclasses==0.6
+openai==1.97.0

@@ -1,0 +1,305 @@
+{
+  "3": {
+    "report_string": "# Blepharitis - Key Symptoms and Relief Strategies\n\nThis community is centered around Blepharitis, a chronic inflammation of the eyelids' sebaceous and meibomian glands, linked to demodex mites or seborrheic dermatitis. Associated symptoms include dry eyes, scabbing at the base of eyelashes, and redness and itchiness of the eyelids. The use of warm compresses is recommended to alleviate symptoms by increasing blood flow and easing inflammation.\n\n## Chronic Inflammation in Blepharitis\n\nBlepharitis is characterized by chronic inflammation of the sebaceous and meibomian glands located at the eyelid margins. This inflammatory disorder is often associated with the presence of demodex mites or conditions like seborrheic dermatitis. Its chronic nature indicates persistent symptoms that can affect the quality of life over a long period.\n\n## Dry Eyes as a Prominent Symptom\n\nDry eyes are a common symptom among patients with blepharitis. It is described as an experience of dryness in the eyes, which significantly impacts the comfort and day-to-day activities of the affected individuals. Therefore, addressing dry eyes is crucial in the management of blepharitis.\n\n## Scabbing at the Base of Eyelashes\n\nBlepharitis can lead to scabbing at the roots of the eyelashes. This phenomenon occurs as part of the chronic inflammatory response in the eyelid region. The presence of scabs may contribute to further discomfort and necessitate proper hygiene and treatment to prevent exacerbation of symptoms.\n\n## Redness and Itchiness of the Eyelids\n\nRedness and itchiness are hallmark symptoms of blepharitis, indicating significant inflammation and discomfort associated with the condition. These symptoms are often a direct reflection of the ongoing chronic inflammatory processes affecting the eyelid area.\n\n## Efficacy of Warm Compresses\n\nThe application of warm compresses is a widely recommended strategy for relieving symptoms of blepharitis. Warm compresses are effective in increasing blood circulation and soothing inflammation, thus providing symptomatic relief to patients. This method is a cornerstone in the non-pharmacologic management of blepharitis.",
+    "report_json": {
+      "title": "Blepharitis - Key Symptoms and Relief Strategies",
+      "summary": "This community is centered around Blepharitis, a chronic inflammation of the eyelids' sebaceous and meibomian glands, linked to demodex mites or seborrheic dermatitis. Associated symptoms include dry eyes, scabbing at the base of eyelashes, and redness and itchiness of the eyelids. The use of warm compresses is recommended to alleviate symptoms by increasing blood flow and easing inflammation.",
+      "rating": 6.5,
+      "rating_explanation": "The impact severity rating is moderate due to the chronic nature of blepharitis and its significant symptomatology affecting patients' quality of life.",
+      "findings": [
+        {
+          "summary": "Chronic Inflammation in Blepharitis",
+          "explanation": "Blepharitis is characterized by chronic inflammation of the sebaceous and meibomian glands located at the eyelid margins. This inflammatory disorder is often associated with the presence of demodex mites or conditions like seborrheic dermatitis. Its chronic nature indicates persistent symptoms that can affect the quality of life over a long period."
+        },
+        {
+          "summary": "Dry Eyes as a Prominent Symptom",
+          "explanation": "Dry eyes are a common symptom among patients with blepharitis. It is described as an experience of dryness in the eyes, which significantly impacts the comfort and day-to-day activities of the affected individuals. Therefore, addressing dry eyes is crucial in the management of blepharitis."
+        },
+        {
+          "summary": "Scabbing at the Base of Eyelashes",
+          "explanation": "Blepharitis can lead to scabbing at the roots of the eyelashes. This phenomenon occurs as part of the chronic inflammatory response in the eyelid region. The presence of scabs may contribute to further discomfort and necessitate proper hygiene and treatment to prevent exacerbation of symptoms."
+        },
+        {
+          "summary": "Redness and Itchiness of the Eyelids",
+          "explanation": "Redness and itchiness are hallmark symptoms of blepharitis, indicating significant inflammation and discomfort associated with the condition. These symptoms are often a direct reflection of the ongoing chronic inflammatory processes affecting the eyelid area."
+        },
+        {
+          "summary": "Efficacy of Warm Compresses",
+          "explanation": "The application of warm compresses is a widely recommended strategy for relieving symptoms of blepharitis. Warm compresses are effective in increasing blood circulation and soothing inflammation, thus providing symptomatic relief to patients. This method is a cornerstone in the non-pharmacologic management of blepharitis."
+        }
+      ]
+    },
+    "level": 0,
+    "title": "Cluster 3",
+    "edges": [
+      [
+        "\"眼干\"",
+        "\"睑缘炎\""
+      ],
+      [
+        "\"睑缘炎\"",
+        "\"红痒\""
+      ],
+      [
+        "\"热敷\"",
+        "\"睑缘炎\""
+      ],
+      [
+        "\"睑缘炎\"",
+        "\"睫毛根部结痂\""
+      ]
+    ],
+    "nodes": [
+      "\"睫毛根部结痂\"",
+      "\"睑缘炎\"",
+      "\"红痒\"",
+      "\"眼干\""
+    ],
+    "chunk_ids": [
+      "chunk-8b5a9485f32686b4377f3864b4198bb7"
+    ],
+    "occurrence": 0.3333333333333333,
+    "sub_communities": []
+  },
+  "2": {
+    "report_string": "# Management of Meibomian Gland Dysfunction and Associated Conditions\n\nThe community centers around the management and risk factors of Meibomian Gland Dysfunction (MGD), highlighting various treatment approaches such as warm compresses, artificial tears, and expression therapy, and the role of demodex mites in exacerbating symptoms. Relationships exist between these treatments and conditions such as evaporative dry eye and blepharitis, emphasizing integrated approaches for symptom alleviation.\n\n## Warm compresses as a recommended treatment\n\nWarm compresses are highlighted for their role in managing several ocular conditions, specifically for easing blockages associated with Meibomian Gland Dysfunction (MGD). By applying heat, they help in improving circulation and relieving symptoms of evaporative dry eye and blepharitis. The consistent recommendation across different sources underscores their importance as a cornerstone for non-invasive ocular therapy.\n\n## Use of artificial tears in symptom management\n\nArtificial tears are repeatedly cited for their effectiveness in lubricating the eye, which is crucial in alleviating dryness symptoms associated with MGD. By mimicking natural tear composition, they provide direct relief to the dry eye surface, reducing irritation and improving overall comfort.\n\n## Role of expression therapy in MGD\n\nExpression therapy is another pivotal treatment method aimed at manually expressing the blocked gland secretions in MGD. This mechanical intervention complements other therapeutic approaches by ensuring glands remain clear and functional, directly addressing one of the primary causes of evaporative dry eye symptoms.\n\n## Demodex mites as a risk factor\n\nDemodex mites are identified as a significant risk factor, potentially exacerbating inflammation in conditions such as MGD and evaporative dry eye. Their presence necessitates adjunctive treatments focusing on mitigating their impact, extending beyond traditional therapies.\n\n## Integrated management of related conditions\n\nThe interconnectedness of treatments and associated conditions such as evaporative dry eye, MGD, and blepharitis highlights the necessity for an integrated management strategy. Each therapy contributes a unique benefit, from symptomatic relief to addressing underlying causes, thereby enhancing patient outcomes through a holistic approach.",
+    "report_json": {
+      "title": "Management of Meibomian Gland Dysfunction and Associated Conditions",
+      "summary": "The community centers around the management and risk factors of Meibomian Gland Dysfunction (MGD), highlighting various treatment approaches such as warm compresses, artificial tears, and expression therapy, and the role of demodex mites in exacerbating symptoms. Relationships exist between these treatments and conditions such as evaporative dry eye and blepharitis, emphasizing integrated approaches for symptom alleviation.",
+      "rating": 7.5,
+      "rating_explanation": "The impact severity is significant due to the common nature of the conditions involved and the variety of effective management strategies available.",
+      "findings": [
+        {
+          "summary": "Warm compresses as a recommended treatment",
+          "explanation": "Warm compresses are highlighted for their role in managing several ocular conditions, specifically for easing blockages associated with Meibomian Gland Dysfunction (MGD). By applying heat, they help in improving circulation and relieving symptoms of evaporative dry eye and blepharitis. The consistent recommendation across different sources underscores their importance as a cornerstone for non-invasive ocular therapy."
+        },
+        {
+          "summary": "Use of artificial tears in symptom management",
+          "explanation": "Artificial tears are repeatedly cited for their effectiveness in lubricating the eye, which is crucial in alleviating dryness symptoms associated with MGD. By mimicking natural tear composition, they provide direct relief to the dry eye surface, reducing irritation and improving overall comfort."
+        },
+        {
+          "summary": "Role of expression therapy in MGD",
+          "explanation": "Expression therapy is another pivotal treatment method aimed at manually expressing the blocked gland secretions in MGD. This mechanical intervention complements other therapeutic approaches by ensuring glands remain clear and functional, directly addressing one of the primary causes of evaporative dry eye symptoms."
+        },
+        {
+          "summary": "Demodex mites as a risk factor",
+          "explanation": "Demodex mites are identified as a significant risk factor, potentially exacerbating inflammation in conditions such as MGD and evaporative dry eye. Their presence necessitates adjunctive treatments focusing on mitigating their impact, extending beyond traditional therapies."
+        },
+        {
+          "summary": "Integrated management of related conditions",
+          "explanation": "The interconnectedness of treatments and associated conditions such as evaporative dry eye, MGD, and blepharitis highlights the necessity for an integrated management strategy. Each therapy contributes a unique benefit, from symptomatic relief to addressing underlying causes, thereby enhancing patient outcomes through a holistic approach."
+        }
+      ]
+    },
+    "level": 0,
+    "title": "Cluster 2",
+    "edges": [
+      [
+        "\"挤压治疗\"",
+        "\"蒸发性干眼\""
+      ],
+      [
+        "\"蒸发性干眼\"",
+        "\"蠕形螨\""
+      ],
+      [
+        "\"挤压治疗\"",
+        "\"睑板腺功能障碍\""
+      ],
+      [
+        "\"热敷\"",
+        "\"蒸发性干眼\""
+      ],
+      [
+        "\"热敷\"",
+        "\"睑缘炎\""
+      ],
+      [
+        "\"人工泪液\"",
+        "\"蒸发性干眼\""
+      ],
+      [
+        "\"热敷\"",
+        "\"睑板腺功能障碍\""
+      ],
+      [
+        "\"睑板腺功能障碍\"",
+        "\"蠕形螨\""
+      ],
+      [
+        "\"人工泪液\"",
+        "\"睑板腺功能障碍\""
+      ]
+    ],
+    "nodes": [
+      "\"睑板腺功能障碍\"",
+      "\"蠕形螨\"",
+      "\"人工泪液\"",
+      "\"热敷\"",
+      "\"挤压治疗\""
+    ],
+    "chunk_ids": [
+      "chunk-14a8344cd76eb646a4bb11f5bcfa450f",
+      "chunk-2510fca2545c2e8ea2913105d1f4028c",
+      "chunk-8b5a9485f32686b4377f3864b4198bb7"
+    ],
+    "occurrence": 1.0,
+    "sub_communities": []
+  },
+  "0": {
+    "report_string": "# Visual Fatigue (视疲劳) Management Community\n\nThe community focuses on the management and understanding of 视疲劳 (Visual Fatigue), highlighting the interconnected roles of specific care tips, risk factors, symptoms, and treatments. Key entities include the condition itself (视疲劳), recommended management strategies like the 20-20-20 rule, associated symptoms such as 干涩 (dryness) and 视力波动 (vision fluctuations), and treatments using 润滑剂 (lubricants).\n\n## 20-20-20 Rule as a Practical Care Tip\n\nThe 20-20-20 rule is advocated as a practical care strategy for managing 视疲劳. This rule suggests that individuals should take a 20-second break every 20 minutes to look at something 20 feet away. This practice can help reduce eye strain demonstratively caused by prolonged screen time and alleviate symptoms associated with visual fatigue.\n\n## Risk Factors Amplifying Visual Fatigue\n\n干眼 (Dry Eye Syndrome) stands out as a significant risk factor for 视疲劳. The interconnection between these conditions suggests that sufferers of dry eye syndrome are at a higher risk of experiencing worsening symptoms when engaging in activities that lead to visual fatigue, as the underlying dry eyes are exacerbated by prolonged screen use.\n\n## Lubricants as an Effective Treatment\n\n润滑剂 (Lubricants) are recommended treatment options for alleviating 视疲劳. Lubricants help to keep the eyes moisturized, providing relief from dryness and endowing comfort to users, thereby mitigating the symptomatic intensity linked to visual fatigue.\n\n## Symptoms of Visual Fatigue\n\nSeveral symptoms characterize the experience of 视疲劳, including 干涩 (dryness), 视力波动 (vision fluctuations), and 酸痛 (aching eyes). These symptoms are indicative of the strain the eyes undergo under conditions of extended visual tasking, and recognizing these symptoms is pivotal for timely intervention and management.\n\n## Interrelation of Symptoms and Treatment Approaches\n\nThe symptoms of 视疲劳, such as 干涩 and 酸痛, are relieved by treatments like 润滑剂, emphasizing the significance of targeted interventions. Understanding these interrelations aids in developing comprehensive strategies for managing visual fatigue, enhancing both comfort and vision sustainability for individuals engaged in prolonged screen activities.",
+    "report_json": {
+      "title": "Visual Fatigue (视疲劳) Management Community",
+      "summary": "The community focuses on the management and understanding of 视疲劳 (Visual Fatigue), highlighting the interconnected roles of specific care tips, risk factors, symptoms, and treatments. Key entities include the condition itself (视疲劳), recommended management strategies like the 20-20-20 rule, associated symptoms such as 干涩 (dryness) and 视力波动 (vision fluctuations), and treatments using 润滑剂 (lubricants).",
+      "rating": 4.5,
+      "rating_explanation": "The impact severity rating is relatively low due to the manageable and non-life-threatening nature of visual fatigue.",
+      "findings": [
+        {
+          "summary": "20-20-20 Rule as a Practical Care Tip",
+          "explanation": "The 20-20-20 rule is advocated as a practical care strategy for managing 视疲劳. This rule suggests that individuals should take a 20-second break every 20 minutes to look at something 20 feet away. This practice can help reduce eye strain demonstratively caused by prolonged screen time and alleviate symptoms associated with visual fatigue."
+        },
+        {
+          "summary": "Risk Factors Amplifying Visual Fatigue",
+          "explanation": "干眼 (Dry Eye Syndrome) stands out as a significant risk factor for 视疲劳. The interconnection between these conditions suggests that sufferers of dry eye syndrome are at a higher risk of experiencing worsening symptoms when engaging in activities that lead to visual fatigue, as the underlying dry eyes are exacerbated by prolonged screen use."
+        },
+        {
+          "summary": "Lubricants as an Effective Treatment",
+          "explanation": "润滑剂 (Lubricants) are recommended treatment options for alleviating 视疲劳. Lubricants help to keep the eyes moisturized, providing relief from dryness and endowing comfort to users, thereby mitigating the symptomatic intensity linked to visual fatigue."
+        },
+        {
+          "summary": "Symptoms of Visual Fatigue",
+          "explanation": "Several symptoms characterize the experience of 视疲劳, including 干涩 (dryness), 视力波动 (vision fluctuations), and 酸痛 (aching eyes). These symptoms are indicative of the strain the eyes undergo under conditions of extended visual tasking, and recognizing these symptoms is pivotal for timely intervention and management."
+        },
+        {
+          "summary": "Interrelation of Symptoms and Treatment Approaches",
+          "explanation": "The symptoms of 视疲劳, such as 干涩 and 酸痛, are relieved by treatments like 润滑剂, emphasizing the significance of targeted interventions. Understanding these interrelations aids in developing comprehensive strategies for managing visual fatigue, enhancing both comfort and vision sustainability for individuals engaged in prolonged screen activities."
+        }
+      ]
+    },
+    "level": 0,
+    "title": "Cluster 0",
+    "edges": [
+      [
+        "\"视疲劳\"",
+        "\"酸痛\""
+      ],
+      [
+        "\"视力波动\"",
+        "\"视疲劳\""
+      ],
+      [
+        "\"干涩\"",
+        "\"视疲劳\""
+      ],
+      [
+        "\"干眼\"",
+        "\"视疲劳\""
+      ],
+      [
+        "\"润滑剂\"",
+        "\"视疲劳\""
+      ],
+      [
+        "\"20-20-20 规则\"",
+        "\"视疲劳\""
+      ]
+    ],
+    "nodes": [
+      "\"润滑剂\"",
+      "\"酸痛\"",
+      "\"视疲劳\"",
+      "\"干眼\"",
+      "\"20-20-20 规则\""
+    ],
+    "chunk_ids": [
+      "chunk-6793fb047637e7e4381d8d717b98301a",
+      "chunk-61706f5b83f4423d3070f919b5f4c06d"
+    ],
+    "occurrence": 0.6666666666666666,
+    "sub_communities": []
+  },
+  "1": {
+    "report_string": "# Evaporative Dry Eye and Associated Symptoms\n\nThe community centers around the condition known as evaporative dry eye, significantly linked with tear film instability and various symptoms including dry and scratchy eyes (干涩) and vision fluctuations (视力波动). Notable relationships include the association of Demodex mites as a risk factor and treatments like warm compresses and artificial tears being recommended for symptom alleviation.\n\n## Central Role of Evaporative Dry Eye\n\nEvaporative dry eye is the central focus of this community, described as an eye discomfort condition caused by instability in the lipid layer of the tear film. It is associated with symptoms such as dryness and fluctuating vision. The condition's significance is underscored by its multiple relationships with risk factors and treatments, highlighting its broad impact on eye health.\n\n## Tear Film Instability as a Primary Cause\n\nTear film instability plays a critical role as a primary cause of evaporative dry eye. This instability leads to rapid evaporation of the tear film, exacerbating symptoms of dry and scratchy eyes. Understanding the stabilizing mechanisms of the tear film can guide the development of effective treatments and management strategies, emphasizing the need for further research in this area.\n\n## Significance of Symptoms: Dryness and Vision Fluctuation\n\nKey symptoms of evaporative dry eye include dryness (干涩) and vision fluctuations (视力波动). Dryness results from inadequate lubrication, causing scratchiness, while vision fluctuation affects clarity, both impacting daily activities and quality of life. Recognizing these symptoms aids in accurate diagnosis and effective management of the condition.\n\n## Effective Treatments: Warm Compresses and Artificial Tears\n\nTreatments such as warm compresses and artificial tears are highly effective in alleviating symptoms of evaporative dry eye. Warm compresses facilitate oil flow in the tear film, enhancing stability, while artificial tears provide lubrication. These therapeutic strategies are essential components of managing dry eye symptoms, offering patients significant relief.\n\n## Demodex Mites as a Risk Factor\n\nDemodex mites are recognized as a potential risk factor for evaporative dry eye, contributing to the condition's development. Their role in exacerbating symptoms highlights the complexity of dry eye syndrome and the necessity of addressing underlying causes to prevent further aggravation of symptoms. Comprehensive management should consider addressing these mites as part of a holistic approach.",
+    "report_json": {
+      "title": "Evaporative Dry Eye and Associated Symptoms",
+      "summary": "The community centers around the condition known as evaporative dry eye, significantly linked with tear film instability and various symptoms including dry and scratchy eyes (干涩) and vision fluctuations (视力波动). Notable relationships include the association of Demodex mites as a risk factor and treatments like warm compresses and artificial tears being recommended for symptom alleviation.",
+      "rating": 7.5,
+      "rating_explanation": "The impact severity rating is relatively high due to the widespread prevalence and impact of evaporative dry eye on quality of life and its potential links to other risk factors.",
+      "findings": [
+        {
+          "summary": "Central Role of Evaporative Dry Eye",
+          "explanation": "Evaporative dry eye is the central focus of this community, described as an eye discomfort condition caused by instability in the lipid layer of the tear film. It is associated with symptoms such as dryness and fluctuating vision. The condition's significance is underscored by its multiple relationships with risk factors and treatments, highlighting its broad impact on eye health."
+        },
+        {
+          "summary": "Tear Film Instability as a Primary Cause",
+          "explanation": "Tear film instability plays a critical role as a primary cause of evaporative dry eye. This instability leads to rapid evaporation of the tear film, exacerbating symptoms of dry and scratchy eyes. Understanding the stabilizing mechanisms of the tear film can guide the development of effective treatments and management strategies, emphasizing the need for further research in this area."
+        },
+        {
+          "summary": "Significance of Symptoms: Dryness and Vision Fluctuation",
+          "explanation": "Key symptoms of evaporative dry eye include dryness (干涩) and vision fluctuations (视力波动). Dryness results from inadequate lubrication, causing scratchiness, while vision fluctuation affects clarity, both impacting daily activities and quality of life. Recognizing these symptoms aids in accurate diagnosis and effective management of the condition."
+        },
+        {
+          "summary": "Effective Treatments: Warm Compresses and Artificial Tears",
+          "explanation": "Treatments such as warm compresses and artificial tears are highly effective in alleviating symptoms of evaporative dry eye. Warm compresses facilitate oil flow in the tear film, enhancing stability, while artificial tears provide lubrication. These therapeutic strategies are essential components of managing dry eye symptoms, offering patients significant relief."
+        },
+        {
+          "summary": "Demodex Mites as a Risk Factor",
+          "explanation": "Demodex mites are recognized as a potential risk factor for evaporative dry eye, contributing to the condition's development. Their role in exacerbating symptoms highlights the complexity of dry eye syndrome and the necessity of addressing underlying causes to prevent further aggravation of symptoms. Comprehensive management should consider addressing these mites as part of a holistic approach."
+        }
+      ]
+    },
+    "level": 0,
+    "title": "Cluster 1",
+    "edges": [
+      [
+        "\"干涩\"",
+        "\"蒸发性干眼\""
+      ],
+      [
+        "\"挤压治疗\"",
+        "\"蒸发性干眼\""
+      ],
+      [
+        "\"蒸发性干眼\"",
+        "\"蠕形螨\""
+      ],
+      [
+        "\"泪膜脂层不稳\"",
+        "\"蒸发性干眼\""
+      ],
+      [
+        "\"蒸发性干眼\"",
+        "\"视力波动\""
+      ],
+      [
+        "\"视力波动\"",
+        "\"视疲劳\""
+      ],
+      [
+        "\"干涩\"",
+        "\"视疲劳\""
+      ],
+      [
+        "\"热敷\"",
+        "\"蒸发性干眼\""
+      ],
+      [
+        "\"人工泪液\"",
+        "\"蒸发性干眼\""
+      ]
+    ],
+    "nodes": [
+      "\"泪膜脂层不稳\"",
+      "\"视力波动\"",
+      "\"蒸发性干眼\"",
+      "\"干涩\""
+    ],
+    "chunk_ids": [
+      "chunk-14a8344cd76eb646a4bb11f5bcfa450f",
+      "chunk-2510fca2545c2e8ea2913105d1f4028c",
+      "chunk-6793fb047637e7e4381d8d717b98301a"
+    ],
+    "occurrence": 1.0,
+    "sub_communities": []
+  }
+}

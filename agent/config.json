@@ -1,0 +1,39 @@
+{
+  "openai": {
+    "api_key": "sk-xxx",
+    "base_url": "https://api.openai.com/v1",
+    "model": "gpt-4o-mini",
+    "max_retries": 3,
+    "timeout": 30
+  },
+  "processing": {
+    "batch_size": 10,
+    "delay_between_requests": 1,
+    "max_concurrent_requests": 5
+  },
+  "output": {
+    "format": "neo4j",
+    "directory": "./ai_output",
+    "include_nutrition": true,
+    "include_tags": true,
+    "available_formats": ["csv", "neo4j", "rf2"]
+  },
+  "categories": {
+    "素菜": "710000000",
+    "荤菜": "720000000", 
+    "水产": "730000000",
+    "早餐": "740000000",
+    "主食": "750000000",
+    "汤类": "760000000",
+    "甜品": "770000000",
+    "饮料": "780000000",
+    "调料": "790000000"
+  },
+  "difficulty_mapping": {
+    "1": "610000000",
+    "2": "620000000",
+    "3": "630000000", 
+    "4": "640000000",
+    "5": "650000000"
+  }
+} 

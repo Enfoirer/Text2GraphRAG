@@ -1,0 +1,2330 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;CATARACT&quot;">
+      <data key="d0">"DISEASE"</data>
+      <data key="d1">"Cataract is a condition caused by opacification of the lens, leading to blurred vision. It is a common cause of blindness in the elderly."</data>
+      <data key="d2">chunk-6dc3e90d1f5a2984385ccd3938e92342</data>
+    </node>
+    <node id="&quot;PYRIDOXINE EYE DROPS&quot;">
+      <data key="d0">"MEDICATION"</data>
+      <data key="d1">"Pyridoxine Eye Drops are used in the early treatment of Cataract but have limited effectiveness."</data>
+      <data key="d2">chunk-6dc3e90d1f5a2984385ccd3938e92342</data>
+    </node>
+    <node id="&quot;CATARACT PHACOEMULSIFICATION SURGERY&quot;">
+      <data key="d0">"PROCEDURE"</data>
+      <data key="d1">"Cataract Phacoemulsification Surgery is a definitive treatment for Cataract, often involving the insertion of an artificial lens."</data>
+      <data key="d2">chunk-6dc3e90d1f5a2984385ccd3938e92342</data>
+    </node>
+    <node id="&quot;DIABETES&quot;">
+      <data key="d0">"RISK_FACTOR"</data>
+      <data key="d1">"Diabetes is a condition that can accelerate the progression of Cataract."</data>
+      <data key="d2">chunk-6dc3e90d1f5a2984385ccd3938e92342</data>
+    </node>
+    <node id="&quot;AGET-RELATED MACULAR DEGENERATION (AMD)&quot;">
+      <data key="d0">"DISEASE"</data>
+      <data key="d1">"Age-Related Macular Degeneration is a condition that causes damage to the macula, leading to central vision loss, and is categorized into dry and wet types."</data>
+      <data key="d2">chunk-6dc3e90d1f5a2984385ccd3938e92342</data>
+    </node>
+    <node id="&quot;ANTI-VEGF INJECTIONS&quot;">
+      <data key="d0">"TREATMENT"</data>
+      <data key="d1">"Anti-VEGF Injections are used to treat wet AMD by injecting medications like Ranibizumab and Aflibercept into the vitreous body."</data>
+      <data key="d2">chunk-6dc3e90d1f5a2984385ccd3938e92342</data>
+    </node>
+    <node id="&quot;LUTEIN AND ZEAXANTHIN SUPPLEMENTS&quot;">
+      <data key="d0">"MEDICATION"</data>
+      <data key="d1">"Lutein and Zeaxanthin Supplements are used in the treatment of dry AMD."</data>
+      <data key="d2">chunk-6dc3e90d1f5a2984385ccd3938e92342</data>
+    </node>
+    <node id="&quot;SMOKING&quot;">
+      <data key="d0">"RISK_FACTOR"</data>
+      <data key="d1">"Smoking is a significant risk factor for Age-Related Macular Degeneration."</data>
+      <data key="d2">chunk-6dc3e90d1f5a2984385ccd3938e92342</data>
+    </node>
+    <node id="&quot;ACUTE ANGLE-CLOSURE GLAUCOMA&quot;">
+      <data key="d0">"DISEASE"</data>
+      <data key="d1">"Acute Angle-Closure Glaucoma is an ocular emergency characterized by a sudden increase in intraocular pressure due to the closure of the anterior chamber angle."</data>
+      <data key="d2">chunk-6dc3e90d1f5a2984385ccd3938e92342</data>
+    </node>
+    <node id="&quot;MANNITOL&quot;">
+      <data key="d0">"MEDICATION"</data>
+      <data key="d1">"Mannitol is used to rapidly lower intraocular pressure in acute angle-closure glaucoma."</data>
+      <data key="d2">chunk-6dc3e90d1f5a2984385ccd3938e92342</data>
+    </node>
+    <node id="&quot;ACETAZOLAMIDE&quot;">
+      <data key="d0">"MEDICATION"</data>
+      <data key="d1">"Acetazolamide is used to reduce aqueous humor production in acute angle-closure glaucoma."</data>
+      <data key="d2">chunk-6dc3e90d1f5a2984385ccd3938e92342</data>
+    </node>
+    <node id="&quot;LASER PERIPHERAL IRIDOTOMY&quot;">
+      <data key="d0">"PROCEDURE"</data>
+      <data key="d1">"Laser Peripheral Iridotomy is a surgical procedure used as part of the treatment for acute angle-closure glaucoma."</data>
+      <data key="d2">chunk-6dc3e90d1f5a2984385ccd3938e92342</data>
+    </node>
+    <node id="&quot;DRY EYE DISEASE&quot;">
+      <data key="d0">"DISEASE"</data>
+      <data key="d1">"Dry Eye Disease is a condition caused by insufficient tear production or excessive tear evaporation, resulting in dry and irritated eyes."</data>
+      <data key="d2">chunk-6dc3e90d1f5a2984385ccd3938e92342</data>
+    </node>
+    <node id="&quot;ARTIFICIAL TEARS&quot;">
+      <data key="d0">"TREATMENT"</data>
+      <data key="d1">"Artificial Tears are lubricating eye drops used to supplement natural tear production in dry eye conditions like keratoconjunctivitis sicca."&lt;SEP&gt;"Artificial Tears are used to provide lubrication and relief for symptoms of Dry Eye Disease."</data>
+      <data key="d2">chunk-6dc3e90d1f5a2984385ccd3938e92342&lt;SEP&gt;chunk-c6446ec3015ea72a17d62e3b2a75173d</data>
+    </node>
+    <node id="&quot;KERATITIS&quot;">
+      <data key="d0">"DISEASE"</data>
+      <data key="d1">"Keratitis is an inflammation of the cornea that can be caused by bacterial, viral, or fungal infections, or improper use of contact lenses."</data>
+      <data key="d2">chunk-6dc3e90d1f5a2984385ccd3938e92342</data>
+    </node>
+    <node id="&quot;LEVOFLOXACIN EYE DROPS&quot;">
+      <data key="d0">"MEDICATION"</data>
+      <data key="d1">"Levofloxacin Eye Drops are used to treat bacterial keratitis."</data>
+      <data key="d2">chunk-6dc3e90d1f5a2984385ccd3938e92342</data>
+    </node>
+    <node id="&quot;VORICONAZOLE&quot;">
+      <data key="d0">"MEDICATION"</data>
+      <data key="d1">"Voriconazole is an antifungal medication used in eye drops to treat fungal infections."&lt;SEP&gt;"Voriconazole is used to treat fungal keratitis."</data>
+      <data key="d2">chunk-6dc3e90d1f5a2984385ccd3938e92342&lt;SEP&gt;chunk-c6446ec3015ea72a17d62e3b2a75173d</data>
+    </node>
+    <node id="&quot;GANCICLOVIR&quot;">
+      <data key="d0">"MEDICATION"</data>
+      <data key="d1">"Ganciclovir is an antiviral medication used in eye drops to treat viral infections."&lt;SEP&gt;"Ganciclovir is used to treat viral keratitis."</data>
+      <data key="d2">chunk-6dc3e90d1f5a2984385ccd3938e92342&lt;SEP&gt;chunk-c6446ec3015ea72a17d62e3b2a75173d</data>
+    </node>
+    <node id="&quot;CONJUNCTIVITIS&quot;">
+      <data key="d0">"DISEASE"</data>
+      <data key="d1">"Conjunctivitis is an inflammation of the conjunctiva, often caused by infections or allergies."&lt;SEP&gt;"Conjunctivitis, also known as red eye, is an inflammation of the conjunctiva caused by bacteria, viruses, or allergens, characterized by symptoms such as eye redness, tearing, and increased discharge."</data>
+      <data key="d2">chunk-6dc3e90d1f5a2984385ccd3938e92342&lt;SEP&gt;chunk-c6446ec3015ea72a17d62e3b2a75173d</data>
+    </node>
+    <node id="&quot;HALO&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"Seeing halos around lights is a symptom associated with Cataract."</data>
+      <data key="d2">chunk-6dc3e90d1f5a2984385ccd3938e92342</data>
+    </node>
+    <node id="&quot;NIGHT BLINDNESS&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"Night Blindness refers to difficulty seeing in low light conditions, often associated with Cataract."</data>
+      <data key="d2">chunk-6dc3e90d1f5a2984385ccd3938e92342</data>
+    </node>
+    <node id="&quot;BLURRY VISION&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"Blurry Vision is a symptom common in Cataract, where vision becomes unclear."</data>
+      <data key="d2">chunk-6dc3e90d1f5a2984385ccd3938e92342</data>
+    </node>
+    <node id="&quot;ARTIFICIAL LENS IMPLANTATION&quot;">
+      <data key="d0">"PROCEDURE"</data>
+      <data key="d1">"Artificial Lens Implantation is a surgical procedure to replace the clouded lens in Cataract surgery."</data>
+      <data key="d2">chunk-6dc3e90d1f5a2984385ccd3938e92342</data>
+    </node>
+    <node id="&quot;COLOR FADING&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"Colors appear less vivid, which is a symptom of Cataract."</data>
+      <data key="d2">chunk-6dc3e90d1f5a2984385ccd3938e92342</data>
+    </node>
+    <node id="&quot;CENTRAL VISION LOSS&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"Central Vision Loss is a common symptom of Age-Related Macular Degeneration, affecting sharpness of vision directly ahead."</data>
+      <data key="d2">chunk-6dc3e90d1f5a2984385ccd3938e92342</data>
+    </node>
+    <node id="&quot;METAMORPHOPSIA&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"Metamorphopsia is a visual distortion where straight lines appear wavy, associated with AMD."</data>
+      <data key="d2">chunk-6dc3e90d1f5a2984385ccd3938e92342</data>
+    </node>
+    <node id="&quot;READING DIFFICULTY&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"Reading Difficulty is a symptom related to Age-Related Macular Degeneration due to central vision impairment."</data>
+      <data key="d2">chunk-6dc3e90d1f5a2984385ccd3938e92342</data>
+    </node>
+    <node id="&quot;HIGH CONTRAST READING LIGHTS&quot;">
+      <data key="d0">"CARE_TIP"</data>
+      <data key="d1">"Using high contrast reading lights can aid reading for individuals with Age-Related Macular Degeneration."</data>
+      <data key="d2">chunk-6dc3e90d1f5a2984385ccd3938e92342</data>
+    </node>
+    <node id="&quot;EYE PAIN&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"A symptom of posterior synechiae where the eye experiences discomfort or ache."&lt;SEP&gt;"Eye pain is a symptom that can be associated with ocular inflammation, infection, or other eye conditions, indicating the need for medical evaluation."&lt;SEP&gt;"Severe Eye Pain is a symptom associated with Acute Angle-Closure Glaucoma."</data>
+      <data key="d2">chunk-6dc3e90d1f5a2984385ccd3938e92342&lt;SEP&gt;chunk-c6446ec3015ea72a17d62e3b2a75173d&lt;SEP&gt;chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;RAINBOW VISION&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"Seeing rainbow-colored circles around lights is a symptom related to Acute Angle-Closure Glaucoma."</data>
+      <data key="d2">chunk-6dc3e90d1f5a2984385ccd3938e92342</data>
+    </node>
+    <node id="&quot;HEADACHE AND NAUSEA&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"Headache and Nausea are symptoms that can accompany Acute Angle-Closure Glaucoma."</data>
+      <data key="d2">chunk-6dc3e90d1f5a2984385ccd3938e92342</data>
+    </node>
+    <node id="&quot;VISION LOSS&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"A symptom of optic atrophy where visual acuity decreases significantly."&lt;SEP&gt;"Abrupt and severe Vision Loss can occur with Acute Angle-Closure Glaucoma if not treated promptly."</data>
+      <data key="d2">chunk-6dc3e90d1f5a2984385ccd3938e92342&lt;SEP&gt;chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;FOREIGN BODY SENSATION&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"Foreign Body Sensation in the eyes is a common symptom of Dry Eye Disease."</data>
+      <data key="d2">chunk-6dc3e90d1f5a2984385ccd3938e92342</data>
+    </node>
+    <node id="&quot;PHOTOPHOBIA&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"An increased sensitivity to light, or Photophobia, is associated with both Keratitis and Dry Eye Disease."&lt;SEP&gt;"Photophobia is a common symptom associated with various eye conditions, causing discomfort or pain in response to light and often requiring prompt medical attention."</data>
+      <data key="d2">chunk-6dc3e90d1f5a2984385ccd3938e92342&lt;SEP&gt;chunk-c6446ec3015ea72a17d62e3b2a75173d</data>
+    </node>
+    <node id="&quot;EYE FATIGUE&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"A general symptom of strain, often resulting from uncorrected vision issues such as astigmatism or hyperopia."&lt;SEP&gt;"Eye Fatigue is a symptom of Dry Eye Disease, particularly when using screens or reading for long periods."</data>
+      <data key="d2">chunk-6dc3e90d1f5a2984385ccd3938e92342&lt;SEP&gt;chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;20-20-20 RULE&quot;">
+      <data key="d0">"CARE_TIP"</data>
+      <data key="d1">"The 20-20-20 rule suggests taking a 20-second break to look at something 20 feet away every 20 minutes to relieve eye strain."</data>
+      <data key="d2">chunk-6dc3e90d1f5a2984385ccd3938e92342</data>
+    </node>
+    <node id="&quot;TEAR INSTABILITY&quot;">
+      <data key="d0">"CONDITION"</data>
+      <data key="d1">"Tear Instability, causing dry eyes and irritation, is a characteristic of Dry Eye Disease."</data>
+      <data key="d2">chunk-6dc3e90d1f5a2984385ccd3938e92342</data>
+    </node>
+    <node id="&quot;CORNEAL ULCER&quot;">
+      <data key="d0">"CONDITION"</data>
+      <data key="d1">"Corneal Ulcer, an open sore on the cornea, is a severe condition associated with Keratitis."</data>
+      <data key="d2">chunk-6dc3e90d1f5a2984385ccd3938e92342</data>
+    </node>
+    <node id="&quot;TEARING&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"Excessive Tearing is symptomatic of Keratitis and is often accompanied by Eye Pain and Photophobia."</data>
+      <data key="d2">chunk-6dc3e90d1f5a2984385ccd3938e92342</data>
+    </node>
+    <node id="&quot;CORNEAL OPACITY&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"Corneal Opacity, or cloudiness of the cornea, is a symptom of Keratitis."</data>
+      <data key="d2">chunk-6dc3e90d1f5a2984385ccd3938e92342</data>
+    </node>
+    <node id="&quot;AVOID CONTACT LENS USAGE&quot;">
+      <data key="d0">"CARE_TIP"</data>
+      <data key="d1">"Avoiding the use of contact lenses is advised for individuals with Keratitis to prevent further irritation or infection."</data>
+      <data key="d2">chunk-6dc3e90d1f5a2984385ccd3938e92342</data>
+    </node>
+    <node id="&quot;BLINDING DISORDERS&quot;">
+      <data key="d0">"SPECIALTY"</data>
+      <data key="d1">"Blinding Disorders refers to medical conditions that impair vision significantly, often managed within ophthalmology."</data>
+      <data key="d2">chunk-6dc3e90d1f5a2984385ccd3938e92342</data>
+    </node>
+    <node id="&quot;OPHTHALMOLOGY&quot;">
+      <data key="d0">"SPECIALTY"</data>
+      <data key="d1">"Ophthalmology is the specialty focused on the diagnosis and treatment of eye disorders, including Cataract, AMD, Glaucoma, Dry Eye Disease, and Keratitis."</data>
+      <data key="d2">chunk-6dc3e90d1f5a2984385ccd3938e92342</data>
+    </node>
+    <node id="&quot;UVEITIS&quot;">
+      <data key="d0">"DISEASE"</data>
+      <data key="d1">"An inflammatory condition affecting the uvea, potentially leading to complications like posterior synechiae."&lt;SEP&gt;"Uveitis is an inflammation of the uveal tract, often associated with autoimmune diseases like ankylosing spondylitis, and is marked by symptoms such as photophobia, eye pain, floaters, and reduced vision."</data>
+      <data key="d2">chunk-c6446ec3015ea72a17d62e3b2a75173d&lt;SEP&gt;chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;RETINAL DETACHMENT&quot;">
+      <data key="d0">"CONDITION"</data>
+      <data key="d1">"Retinal Detachment is a condition where the retina detaches from the back of the eye, considered a sight-threatening emergency, which presents with increased floaters, flashes, a shadow over the field of vision, and a sudden drop in vision."</data>
+      <data key="d2">chunk-c6446ec3015ea72a17d62e3b2a75173d</data>
+    </node>
+    <node id="&quot;DIABETIC RETINOPATHY&quot;">
+      <data key="d0">"DISEASE"</data>
+      <data key="d1">"Diabetic Retinopathy is a retinal disease resulting from prolonged high blood sugar levels causing microvascular damage, leading to symptoms like vision fluctuation, floaters, and difficulty reading, and requires interventions like anti-VEGF injections or laser photocoagulation."</data>
+      <data key="d2">chunk-c6446ec3015ea72a17d62e3b2a75173d</data>
+    </node>
+    <node id="&quot;KERATOCONJUNCTIVITIS SICCA&quot;">
+      <data key="d0">"CONDITION"</data>
+      <data key="d1">"Keratoconjunctivitis Sicca, or dry eye syndrome, is caused by insufficient tear production leading to chronic dryness of the cornea, with symptoms such as stinging, photophobia, and blurred vision, often requiring treatments like artificial tears and lipid-based lubricants."</data>
+      <data key="d2">chunk-c6446ec3015ea72a17d62e3b2a75173d</data>
+    </node>
+    <node id="&quot;FLOATERS&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"Floaters are shadows or spots seen in the field of vision due to vitreous degeneration or deposits, often considered a warning for retinal tears."&lt;SEP&gt;"Floaters, also known as flying spots, occur due to the liquefaction or deposition of fibers in the vitreous, leading to black shadows in the field of vision."</data>
+      <data key="d2">chunk-59c13b115638e5e42e562c2220f923f8&lt;SEP&gt;chunk-c6446ec3015ea72a17d62e3b2a75173d</data>
+    </node>
+    <node id="&quot;TOBRAMYCIN&quot;">
+      <data key="d0">"MEDICATION"</data>
+      <data key="d1">"Tobramycin is an antibiotic eye drop used to treat bacterial infections like styes by inhibiting bacterial growth."&lt;SEP&gt;"Tobramycin is an antibiotic used to treat bacterial conjunctivitis, recommended for bacterial causes of conjunctivitis."</data>
+      <data key="d2">chunk-59c13b115638e5e42e562c2220f923f8&lt;SEP&gt;chunk-c6446ec3015ea72a17d62e3b2a75173d</data>
+    </node>
+    <node id="&quot;ANTIHISTAMINE EYE DROPS&quot;">
+      <data key="d0">"MEDICATION"</data>
+      <data key="d1">"Antihistamine eye drops are used to alleviate allergic conjunctivitis by reducing allergic reactions in the eye."</data>
+      <data key="d2">chunk-c6446ec3015ea72a17d62e3b2a75173d</data>
+    </node>
+    <node id="&quot;VEGF INHIBITOR INJECTIONS&quot;">
+      <data key="d0">"TREATMENT"</data>
+      <data key="d1">"VEGF inhibitor injections are used intraocularly to treat diabetic retinopathy by reducing vessel permeability and growth."</data>
+      <data key="d2">chunk-c6446ec3015ea72a17d62e3b2a75173d</data>
+    </node>
+    <node id="&quot;LASER PHOTOCOAGULATION&quot;">
+      <data key="d0">"PROCEDURE"</data>
+      <data key="d1">"Laser Photocoagulation is a surgical procedure used to treat diabetic retinopathy by sealing leaking blood vessels in the retina."</data>
+      <data key="d2">chunk-c6446ec3015ea72a17d62e3b2a75173d</data>
+    </node>
+    <node id="&quot;SURGERY (VITRECTOMY, SCLERAL BUCKLING, LASER)&quot;">
+      <data key="d0">"PROCEDURE"</data>
+      <data key="d1">"Various surgical procedures, including vitrectomy, scleral buckling, and laser treatments, are used for correcting retinal detachment."</data>
+      <data key="d2">chunk-c6446ec3015ea72a17d62e3b2a75173d</data>
+    </node>
+    <node id="&quot;STEROID EYE DROPS&quot;">
+      <data key="d0">"MEDICATION"</data>
+      <data key="d1">"Steroid eye drops are used for treating inflammation in uveitis."</data>
+      <data key="d2">chunk-c6446ec3015ea72a17d62e3b2a75173d</data>
+    </node>
+    <node id="&quot;ATROPINE&quot;">
+      <data key="d0">"MEDICATION"</data>
+      <data key="d1">"Atropine is a mydriatic agent used to dilate the pupil in the treatment of uveitis."</data>
+      <data key="d2">chunk-c6446ec3015ea72a17d62e3b2a75173d</data>
+    </node>
+    <node id="&quot;CORNEAL PERFORATION&quot;">
+      <data key="d0">"CONDITION"</data>
+      <data key="d1">"Corneal Perforation is a serious condition that can occur if an eye infection or inflammation is not promptly treated, leading to a hole in the cornea."</data>
+      <data key="d2">chunk-c6446ec3015ea72a17d62e3b2a75173d</data>
+    </node>
+    <node id="&quot;CONTACT LENSES&quot;">
+      <data key="d0">"CONTRAINDICATION"</data>
+      <data key="d1">"Corrective lenses placed on the eye surface, often used for refractive errors like astigmatism and hyperopia."&lt;SEP&gt;"Wearing Contact Lenses is contraindicated during certain eye conditions like infections, as this can worsen the condition or hinder recovery."</data>
+      <data key="d2">chunk-c6446ec3015ea72a17d62e3b2a75173d&lt;SEP&gt;chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;MACULAR EDEMA&quot;">
+      <data key="d0">"CONDITION"</data>
+      <data key="d1">"Macular Edema is a condition characterized by the accumulation of fluid in the macular area of the retina, often leading to vision problems."</data>
+      <data key="d2">chunk-c6446ec3015ea72a17d62e3b2a75173d</data>
+    </node>
+    <node id="&quot;SJÖGREN'S SYNDROME&quot;">
+      <data key="d0">"RISK_FACTOR"</data>
+      <data key="d1">"Sjögren's Syndrome is an autoimmune disorder known to exacerbate dry eye symptoms due to decreased tear production."</data>
+      <data key="d2">chunk-c6446ec3015ea72a17d62e3b2a75173d</data>
+    </node>
+    <node id="&quot;HIGH MYOPIA&quot;">
+      <data key="d0">"RISK_FACTOR"</data>
+      <data key="d1">"High Myopia increases the risk of retinal detachment, necessitating regular eye examinations and monitoring."</data>
+      <data key="d2">chunk-c6446ec3015ea72a17d62e3b2a75173d</data>
+    </node>
+    <node id="&quot;HAND HYGIENE&quot;">
+      <data key="d0">"CARE_TIP"</data>
+      <data key="d1">"Maintaining Hand Hygiene by washing hands frequently is a crucial preventive measure for avoiding the transmission or worsening of eye infections."</data>
+      <data key="d2">chunk-c6446ec3015ea72a17d62e3b2a75173d</data>
+    </node>
+    <node id="&quot;AVOID RUBBING EYES&quot;">
+      <data key="d0">"CARE_TIP"</data>
+      <data key="d1">"Avoiding Rubbing Eyes is advised to prevent irritation or worsening of infections or conditions of the eye."</data>
+      <data key="d2">chunk-c6446ec3015ea72a17d62e3b2a75173d</data>
+    </node>
+    <node id="&quot;ENVIRONMENTAL HUMIDIFICATION&quot;">
+      <data key="d0">"CARE_TIP"</data>
+      <data key="d1">"Environmental Humidification can help alleviate symptoms of dry eye conditions by reducing ambient dryness."</data>
+      <data key="d2">chunk-c6446ec3015ea72a17d62e3b2a75173d</data>
+    </node>
+    <node id="&quot;PHOTOPSIA&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"Photopsia, characterized by transient flashes of light, often indicates vitreous detachment or retinal tears due to retinal pulling or stimulation."</data>
+      <data key="d2">chunk-59c13b115638e5e42e562c2220f923f8</data>
+    </node>
+    <node id="&quot;CHRONIC OPEN-ANGLE GLAUCOMA&quot;">
+      <data key="d0">"DISEASE"</data>
+      <data key="d1">"Chronic open-angle glaucoma is a condition where increased resistance to the outflow of aqueous humor raises intraocular pressure, slowly damaging the optic nerve."</data>
+      <data key="d2">chunk-59c13b115638e5e42e562c2220f923f8</data>
+    </node>
+    <node id="&quot;STYE&quot;">
+      <data key="d0">"DISEASE"</data>
+      <data key="d1">"A stye is an acute bacterial infection of the eyelid glands, commonly caused by Staphylococcus bacteria, marked by redness, swelling, and pus formation."</data>
+      <data key="d2">chunk-59c13b115638e5e42e562c2220f923f8</data>
+    </node>
+    <node id="&quot;CHALAZION&quot;">
+      <data key="d0">"CONDITION"</data>
+      <data key="d1">"A chalazion is a chronic, painless nodule resulting from blocked secretion of the meibomian gland."</data>
+      <data key="d2">chunk-59c13b115638e5e42e562c2220f923f8</data>
+    </node>
+    <node id="&quot;MYOPIA&quot;">
+      <data key="d0">"CONDITION"</data>
+      <data key="d1">"A refractive error condition where close objects appear clearly, but distant ones do not."&lt;SEP&gt;"Myopia, or nearsightedness, is a refractive error where distant objects focus in front of the retina, causing distant vision to be blurred."</data>
+      <data key="d2">chunk-59c13b115638e5e42e562c2220f923f8&lt;SEP&gt;chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;RETINAL TEAR&quot;">
+      <data key="d0">"CONDITION"</data>
+      <data key="d1">"A retinal tear occurs when there is a break in the retina, often necessitating prompt medical attention to prevent further detachment."</data>
+      <data key="d2">chunk-59c13b115638e5e42e562c2220f923f8</data>
+    </node>
+    <node id="&quot;VITREOUS DETACHMENT&quot;">
+      <data key="d0">"CONDITION"</data>
+      <data key="d1">"Vitreous detachment is the separation of the vitreous gel from the retina, commonly associated with aging or eye trauma."</data>
+      <data key="d2">chunk-59c13b115638e5e42e562c2220f923f8</data>
+    </node>
+    <node id="&quot;PROSTAGLANDIN ANALOGUES&quot;">
+      <data key="d0">"MEDICATION"</data>
+      <data key="d1">"Prostaglandin analogues are eye drops used to lower intraocular pressure in glaucoma by increasing aqueous humor outflow."</data>
+      <data key="d2">chunk-59c13b115638e5e42e562c2220f923f8</data>
+    </node>
+    <node id="&quot;BETA BLOCKERS&quot;">
+      <data key="d0">"MEDICATION"</data>
+      <data key="d1">"Beta blockers are medications applied as eye drops to decrease aqueous humor production, reducing intraocular pressure in glaucoma patients."</data>
+      <data key="d2">chunk-59c13b115638e5e42e562c2220f923f8</data>
+    </node>
+    <node id="&quot;TRABECULOPLASTY&quot;">
+      <data key="d0">"PROCEDURE"</data>
+      <data key="d1">"Trabeculoplasty is a laser surgery used to treat open-angle glaucoma by enhancing fluid drainage from the eye to lower intraocular pressure."</data>
+      <data key="d2">chunk-59c13b115638e5e42e562c2220f923f8</data>
+    </node>
+    <node id="&quot;HORMONE INJECTION&quot;">
+      <data key="d0">"TREATMENT"</data>
+      <data key="d1">"Hormone injection involves introducing steroid medications into lesions of chalazion to reduce inflammation and encourage healing."</data>
+      <data key="d2">chunk-59c13b115638e5e42e562c2220f923f8</data>
+    </node>
+    <node id="&quot;LASER REFRACTIVE SURGERY&quot;">
+      <data key="d0">"PROCEDURE"</data>
+      <data key="d1">"Laser refractive surgery is employed to correct vision issues like myopia and astigmatism by reshaping the cornea."</data>
+      <data key="d2">chunk-59c13b115638e5e42e562c2220f923f8</data>
+    </node>
+    <node id="&quot;REFRACTIVE ERROR&quot;">
+      <data key="d0">"CONDITION"</data>
+      <data key="d1">"General term for vision issues caused by the shape of the eye preventing light from focusing directly on the retina."&lt;SEP&gt;"Refractive error refers to the inability of the eye to correctly focus light on the retina, resulting in blurred vision."</data>
+      <data key="d2">chunk-59c13b115638e5e42e562c2220f923f8&lt;SEP&gt;chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;ASTIGMATISM&quot;">
+      <data key="d0">"CONDITION"</data>
+      <data key="d1">"Astigmatism is a condition caused by uneven corneal curvature, leading to improper focusing of light."&lt;SEP&gt;"Astigmatism is a refractive error caused by an uneven curvature of the cornea, leading to blurred or distorted vision."</data>
+      <data key="d2">chunk-59c13b115638e5e42e562c2220f923f8&lt;SEP&gt;chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;CORNEAL IRREGULARITY&quot;">
+      <data key="d0">"SIGN"</data>
+      <data key="d1">"Corneal irregularity in astigmatism results in uneven bending of light entering the eye, causing blurred vision."</data>
+      <data key="d2">chunk-59c13b115638e5e42e562c2220f923f8</data>
+    </node>
+    <node id="&quot;OUTDOOR ACTIVITY&quot;">
+      <data key="d0">"LIFESTYLE"</data>
+      <data key="d1">"Outdoor activity has been suggested as beneficial in slowing the progression of myopia in children."</data>
+      <data key="d2">chunk-59c13b115638e5e42e562c2220f923f8</data>
+    </node>
+    <node id="&quot;RETINAL DETACHMENT RISK&quot;">
+      <data key="d0">"RISK_FACTOR"</data>
+      <data key="d1">"A condition associated with high myopia that increases the risk of retinal detachment."</data>
+      <data key="d2">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;OUTDOOR ACTIVITIES FOR CHILDREN&quot;">
+      <data key="d0">"LIFESTYLE"</data>
+      <data key="d1">"Outdoor activities for children can help control the progression of various eye conditions."</data>
+      <data key="d2">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;BLURRINESS&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"Blurriness is a common symptom of astigmatism where vision becomes unclear."</data>
+      <data key="d2">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;GHOSTING&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"Ghosting, or seeing duplicate images, is another symptom of astigmatism."</data>
+      <data key="d2">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;NIGHTTIME GLARE&quot;">
+      <data key="d0">"SIGN"</data>
+      <data key="d1">"Nighttime glare is an associated sign where bright lights appear distracting or dazzling."</data>
+      <data key="d2">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;VISION CORRECTION EYEWEAR&quot;">
+      <data key="d0">"TREATMENT"</data>
+      <data key="d1">"Glasses and contact lenses are recommended treatments for astigmatism."</data>
+      <data key="d2">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;LASER CORRECTION&quot;">
+      <data key="d0">"PROCEDURE"</data>
+      <data key="d1">"A surgical option for correcting vision in individuals with astigmatism and hyperopia."</data>
+      <data key="d2">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;EYE STRAIN FROM UNCORRECTED ASTIGMATISM&quot;">
+      <data key="d0">"RISK_FACTOR"</data>
+      <data key="d1">"A risk in astigmatism where failure to correct vision can lead to eye fatigue."</data>
+      <data key="d2">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;CORNEAL TOPOGRAPHY&quot;">
+      <data key="d0">"PROCEDURE"</data>
+      <data key="d1">"A diagnostic method to evaluate the type of astigmatism by mapping the surface of the cornea."</data>
+      <data key="d2">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;HYPEROPIA&quot;">
+      <data key="d0">"DISEASE"</data>
+      <data key="d1">"Hyperopia or farsightedness is a condition where focusing on nearby objects is difficult."</data>
+      <data key="d2">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;DIFFICULTY FOCUSING CLOSE-UP&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"A symptom of hyperopia where seeing near objects requires effort."</data>
+      <data key="d2">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;EYE DISCOMFORT&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"A symptom of hyperopia involving tired or sore eyes."</data>
+      <data key="d2">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;HEADACHE&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"A common symptom associated with hyperopia due to the strain of focusing."</data>
+      <data key="d2">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;PLUS LENSES&quot;">
+      <data key="d0">"TREATMENT"</data>
+      <data key="d1">"Eyewear prescribed to correct hyperopia by providing focusing assistance."</data>
+      <data key="d2">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;ANGLE-CLOSURE GLAUCOMA RISK&quot;">
+      <data key="d0">"RISK_FACTOR"</data>
+      <data key="d1">"A risk where moderate to severe hyperopia may lead to angle-closure glaucoma."</data>
+      <data key="d2">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;REGULAR FOLLOW-UP FOR CHILDREN'S HYPEROPIA&quot;">
+      <data key="d0">"CARE_TIP"</data>
+      <data key="d1">"Advice for regular eye exams for children with hyperopia to monitor changes."</data>
+      <data key="d2">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;STRABISMUS&quot;">
+      <data key="d0">"CONDITION"</data>
+      <data key="d1">"Strabismus or squint is a condition where the eyes do not align properly."</data>
+      <data key="d2">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;EYES MISALIGNMENT&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"A symptom of strabismus where the alignment of the eyes is not straight."</data>
+      <data key="d2">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;DOUBLE VISION (ADULTS)&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"A symptom in adults with strabismus, seeing two images of a single object."</data>
+      <data key="d2">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;AMBLYOPIA (CHILDREN)&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"A condition in children associated with strabismus, characterized by reduced vision."</data>
+      <data key="d2">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;EYE PATCH THERAPY&quot;">
+      <data key="d0">"TREATMENT"</data>
+      <data key="d1">"A method to treat strabismus and amblyopia by covering one eye to improve vision in the other."</data>
+      <data key="d2">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;STRABISMUS SURGERY&quot;">
+      <data key="d0">"PROCEDURE"</data>
+      <data key="d1">"A surgical intervention for correcting eye alignment in strabismus."</data>
+      <data key="d2">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;EARLY TREATMENT BENEFITS&quot;">
+      <data key="d0">"CARE_TIP"</data>
+      <data key="d1">"Advice stating that early treatment of strabismus leads to better outcomes."</data>
+      <data key="d2">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;AMBLYOPIA&quot;">
+      <data key="d0">"CONDITION"</data>
+      <data key="d1">"A vision development disorder in children where one eye does not achieve normal visual acuity."</data>
+      <data key="d2">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;POOR VISION IN ONE EYE&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"A symptom of amblyopia where one eye has significantly reduced visual sharpness."</data>
+      <data key="d2">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;BINOCULAR VISION DISCREPANCY&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"A symptom of amblyopia where there's a significant difference in vision between the two eyes."</data>
+      <data key="d2">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;VISION TRAINING&quot;">
+      <data key="d0">"TREATMENT"</data>
+      <data key="d1">"A treatment for amblyopia involving exercises to stimulate visual development."</data>
+      <data key="d2">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;EARLY VISION SCREENING RECOMMENDATION&quot;">
+      <data key="d0">"CARE_TIP"</data>
+      <data key="d1">"Advising the first visual screening for children by age 3 to detect amblyopia early."</data>
+      <data key="d2">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;DIPLOPIA&quot;">
+      <data key="d0">"CONDITION"</data>
+      <data key="d1">"Diplopia, or double vision, is a condition where two images of a single object are seen."</data>
+      <data key="d2">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;DOUBLE IMAGE&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"A primary symptom of diplopia where the same object is perceived as two distinct images."</data>
+      <data key="d2">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;DIZZINESS&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"A symptom often accompanying diplopia due to visual confusion and imbalance."</data>
+      <data key="d2">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;EYE MISALIGNMENT&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"Associated with diplopia, where the eyes may not align, leading to double vision."</data>
+      <data key="d2">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;PRISM GLASSES&quot;">
+      <data key="d0">"TREATMENT"</data>
+      <data key="d1">"Special glasses used to correct diplopia by aligning the images."</data>
+      <data key="d2">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;NEUROVASCULAR CONDITION INVESTIGATION&quot;">
+      <data key="d0">"CARE_TIP"</data>
+      <data key="d1">"Recommendation for investigating neurological or vascular causes of prolonged diplopia."</data>
+      <data key="d2">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;POSTERIOR SYNECHIAE&quot;">
+      <data key="d0">"CONDITION"</data>
+      <data key="d1">"A condition where the iris adheres to the lens or cornea due to inflammation."</data>
+      <data key="d2">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;BLURRED VISION&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"A symptom where vision becomes unclear, associated with posterior synechiae."</data>
+      <data key="d2">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;MYDRIATICS&quot;">
+      <data key="d0">"MEDICATION"</data>
+      <data key="d1">"Medications used to dilate the pupil and prevent synechiae formation."</data>
+      <data key="d2">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;GLAUCOMA RISK DUE TO POSTERIOR SYNECHIAE&quot;">
+      <data key="d0">"RISK_FACTOR"</data>
+      <data key="d1">"A complication where posterior synechiae may lead to secondary glaucoma."</data>
+      <data key="d2">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;EARLY MYDRIASIS IN UVEITIS&quot;">
+      <data key="d0">"CARE_TIP"</data>
+      <data key="d1">"Advice for early mydriasis treatment to prevent adhesion in cases of uveitis."</data>
+      <data key="d2">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;OPTIC ATROPHY&quot;">
+      <data key="d0">"CONDITION"</data>
+      <data key="d1">"A condition involving damage to optic nerve fibers, resulting in irreversible vision loss."</data>
+      <data key="d2">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;VISUAL FIELD CONSTRICTION&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"A symptom of optic atrophy where there is a reduction in the peripheral vision field."</data>
+      <data key="d2">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;SURGICAL PROCEDURE&quot;">
+      <data key="d0">"PROCEDURE"</data>
+      <data key="d1">"Surgery mentioned in the context of treating certain ophthalmic conditions."</data>
+      <data key="d2">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;ROUTINE EYE EXAMS&quot;">
+      <data key="d0">"CARE_TIP"</data>
+      <data key="d1">"Recommendation for regular eye check-ups to detect conditions early and manage them effectively."</data>
+      <data key="d2">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;NERVE DAMAGE&quot;">
+      <data key="d0">"CONDITION"</data>
+      <data key="d1">"Associated with optic atrophy, causing a decrease in vision due to irreparable harm to nerve pathways."</data>
+      <data key="d2">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;GLAUCOMA&quot;">
+      <data key="d0">"CONDITION"</data>
+      <data key="d1">"A group of eye conditions leading to optic nerve damage, often linked to increased intraocular pressure."</data>
+      <data key="d2">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+    </node>
+    <node id="&quot;视神经萎缩&quot;">
+      <data key="d0">"DISEASE"</data>
+      <data key="d1">"视神经萎缩是一种由视神经轴突损伤导致的疾病，主要表现为视力下降且不可逆转。"</data>
+      <data key="d2">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+    </node>
+    <node id="&quot;视力下降&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"视力下降是指视力能力减退，可能由眼部异物或其他眼部问题引起。"&lt;SEP&gt;"视力下降是视神经萎缩的常见症状，病人可能会经历视力的逐渐减弱。"</data>
+      <data key="d2">chunk-2510fca2545c2e8ea2913105d1f4028c&lt;SEP&gt;chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+    </node>
+    <node id="&quot;视野缩小&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"视野缩小是视神经萎缩的另一个常见症状，患者在患病过程中视野会有所收窄。"</data>
+      <data key="d2">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+    </node>
+    <node id="&quot;营养神经药物&quot;">
+      <data key="d0">"MEDICATION"</data>
+      <data key="d1">"营养神经药物用于辅助治疗视神经萎缩，通过支持神经功能以减缓病情进展。"</data>
+      <data key="d2">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+    </node>
+    <node id="&quot;青光眼&quot;">
+      <data key="d0">"RISK_FACTOR"</data>
+      <data key="d1">"青光眼是视神经萎缩的最常见病因之一，导致视神经病变。"</data>
+      <data key="d2">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+    </node>
+    <node id="&quot;眼睑下垂&quot;">
+      <data key="d0">"DISEASE"</data>
+      <data key="d1">"眼睑下垂是由于上睑肌或神经异常导致的眼皮下垂现象。"</data>
+      <data key="d2">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+    </node>
+    <node id="&quot;单/双侧下垂&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"眼睑下垂常表现为一侧或双侧的眼皮下垂。"</data>
+      <data key="d2">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+    </node>
+    <node id="&quot;抬眉代偿&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"在眼睑下垂的情形下，患者可能会通过抬眉来代偿眼皮下垂。"</data>
+      <data key="d2">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+    </node>
+    <node id="&quot;手术矫正&quot;">
+      <data key="d0">"PROCEDURE"</data>
+      <data key="d1">"Surgical correction is a recommended treatment for conditions like entropion and ectropion to restore normal eyelid position."&lt;SEP&gt;"手术矫正是眼睑下垂的一种推荐治疗方法，通过手术来提高眼皮位置。"</data>
+      <data key="d2">chunk-8b5a9485f32686b4377f3864b4198bb7&lt;SEP&gt;chunk-61706f5b83f4423d3070f919b5f4c06d</data>
+    </node>
+    <node id="&quot;动眼神经麻痹&quot;">
+      <data key="d0">"RISK_FACTOR"</data>
+      <data key="d1">"动眼神经麻痹可能导致眼睑下垂，是该疾病的一种表现形式。"</data>
+      <data key="d2">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+    </node>
+    <node id="&quot;眼部带状疱疹&quot;">
+      <data key="d0">"DISEASE"</data>
+      <data key="d1">"眼部带状疱疹是由水痘带状疱疹病毒引起的感染，影响眼部区域和角膜。"</data>
+      <data key="d2">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+    </node>
+    <node id="&quot;水痘带状疱疹病毒&quot;">
+      <data key="d0">"RISK_FACTOR"</data>
+      <data key="d1">"这种病毒是眼部带状疱疹的病原体，导致感染和皮肤疱疹。"</data>
+      <data key="d2">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+    </node>
+    <node id="&quot;皮肤疱疹&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"感染眼部带状疱疹时可能出现的皮肤症状，包括皮肤上的带状疱疹。"</data>
+      <data key="d2">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+    </node>
+    <node id="&quot;角膜炎&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"角膜炎可能出现在眼部带状疱疹的患者中，表现为角膜的炎症反应。"</data>
+      <data key="d2">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+    </node>
+    <node id="&quot;畏光&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"畏光, or photophobia, is sensitivity to light, often causing discomfort."&lt;SEP&gt;"畏光是眼部带状疱疹的一种常见症状，即对光敏感。"</data>
+      <data key="d2">chunk-14a8344cd76eb646a4bb11f5bcfa450f&lt;SEP&gt;chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+    </node>
+    <node id="&quot;阿昔洛韦&quot;">
+      <data key="d0">"MEDICATION"</data>
+      <data key="d1">"阿昔洛韦是一种用于口服治疗眼部带状疱疹的抗病毒药物。"</data>
+      <data key="d2">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+    </node>
+    <node id="&quot;更昔洛韦凝胶&quot;">
+      <data key="d0">"MEDICATION"</data>
+      <data key="d1">"更昔洛韦凝胶用于局部治疗眼部带状疱疹，通过抑制病毒复制来发挥效果。"</data>
+      <data key="d2">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+    </node>
+    <node id="&quot;玻璃体后脱离&quot;">
+      <data key="d0">"CONDITION"</data>
+      <data key="d1">"玻璃体后脱离是玻璃体老化导致玻璃体与视网膜的分离，一种常见于老年人的生理变化。"</data>
+      <data key="d2">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+    </node>
+    <node id="&quot;闪光感&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"玻璃体后脱离可引起闪光感，是由于玻璃体牵拉视网膜引起的视觉现象。"</data>
+      <data key="d2">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+    </node>
+    <node id="&quot;飞蚊增多&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"飞蚊增多是玻璃体后脱离的典型症状之一，患者会看到飘动的小黑点。"</data>
+      <data key="d2">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+    </node>
+    <node id="&quot;高度近视&quot;">
+      <data key="d0">"RISK_FACTOR"</data>
+      <data key="d1">"高度近视的人群更容易发生玻璃体后脱离。"</data>
+      <data key="d2">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+    </node>
+    <node id="&quot;睑缘炎&quot;">
+      <data key="d0">"DISEASE"</data>
+      <data key="d1">"睑缘炎是睑缘皮脂腺和睑板腺的慢性炎症，多见于与蠕形螨或脂溢性皮炎有关的场合。"</data>
+      <data key="d2">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+      <data key="d3">[{"level": 0, "cluster": 3}]</data>
+    </node>
+    <node id="&quot;睫毛根部结痂&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"睑缘炎可导致睫毛根部出现结痂的现象。"</data>
+      <data key="d2">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+      <data key="d3">[{"level": 0, "cluster": 3}]</data>
+    </node>
+    <node id="&quot;红痒&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"睑缘炎患者常会出现眼睑及周围区域的红肿和瘙痒。"</data>
+      <data key="d2">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+      <data key="d3">[{"level": 0, "cluster": 3}]</data>
+    </node>
+    <node id="&quot;眼干&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"眼干是睑缘炎的常见症状，表现为眼睛干涩。"</data>
+      <data key="d2">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+      <data key="d3">[{"level": 0, "cluster": 3}]</data>
+    </node>
+    <node id="&quot;热敷&quot;">
+      <data key="d0">"TREATMENT"</data>
+      <data key="d1">"热敷 involves the application of warmth to an area to relieve pain or improve circulation, often used for eye conditions."&lt;SEP&gt;"热敷是一种推荐用于缓解蒸发性干眼症状的治疗方法。"&lt;SEP&gt;"热敷是一种简单易行的睑缘炎护理方法，可帮助缓解症状。"</data>
+      <data key="d2">chunk-14a8344cd76eb646a4bb11f5bcfa450f&lt;SEP&gt;chunk-2510fca2545c2e8ea2913105d1f4028c&lt;SEP&gt;chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;视网膜静脉阻塞&quot;">
+      <data key="d0">"DISEASE"</data>
+      <data key="d1">"视网膜静脉阻塞是由于视网膜静脉血流被阻断，引起水肿、出血和视力下降。"</data>
+      <data key="d2">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+    </node>
+    <node id="&quot;灰蒙感&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"灰蒙感是视网膜静脉阻塞中的一种症状，患者视野可能出现灰暗。"</data>
+      <data key="d2">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+    </node>
+    <node id="&quot;抗 VEGF 注射&quot;">
+      <data key="d0">"TREATMENT"</data>
+      <data key="d1">"抗 VEGF 注射用于治疗视网膜静脉阻塞，通过减少血管生成来改善症状。"</data>
+      <data key="d2">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+    </node>
+    <node id="&quot;视网膜激光&quot;">
+      <data key="d0">"PROCEDURE"</data>
+      <data key="d1">"视网膜激光是一种治疗视网膜静脉阻塞的方法，通过激光治疗改善病情。"</data>
+      <data key="d2">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+    </node>
+    <node id="&quot;高血压&quot;">
+      <data key="d0">"RISK_FACTOR"</data>
+      <data key="d1">"高血压 is a common condition among patients and emphasizes the importance of maintaining good blood pressure control."&lt;SEP&gt;"高血压患者通常更容易发生视网膜静脉阻塞。"</data>
+      <data key="d2">chunk-8b5a9485f32686b4377f3864b4198bb7&lt;SEP&gt;chunk-61706f5b83f4423d3070f919b5f4c06d</data>
+    </node>
+    <node id="&quot;视神经损伤&quot;">
+      <data key="d0">"CONDITION"</data>
+      <data key="d1">"视神经损伤是视神经无法正常传递视觉信息的状态，可能导致视力下降。"</data>
+      <data key="d2">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+    </node>
+    <node id="&quot;视力急降&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"视网膜静脉阻塞的一个症状，呈现为视力突然大幅下降。"</data>
+      <data key="d2">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+    </node>
+    <node id="&quot;严重水肿&quot;">
+      <data key="d0">"SIGN"</data>
+      <data key="d1">"视网膜静脉阻塞通常导致视网膜区域的严重水肿。"</data>
+      <data key="d2">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+    </node>
+    <node id="&quot;阿昔洛韦口服&quot;">
+      <data key="d0">"TREATMENT"</data>
+      <data key="d1">"口服阿昔洛韦是一种针对眼部带状疱疹感染的抗病毒治疗方法。"</data>
+      <data key="d2">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+    </node>
+    <node id="&quot;鼻尖皮疹&quot;">
+      <data key="d0">"SIGN"</data>
+      <data key="d1">"鼻尖皮疹是眼部带状疱疹的一种征兆，指示感染可能已累及眼部。"</data>
+      <data key="d2">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+    </node>
+    <node id="&quot;葡萄膜炎&quot;">
+      <data key="d0">"CONDITION"</data>
+      <data key="d1">"眼部带状疱疹可累及葡萄膜导致葡萄膜炎，出现眼部发红和视力问题。"</data>
+      <data key="d2">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+    </node>
+    <node id="&quot;抬眉代偿现象&quot;">
+      <data key="d0">"SIGN"</data>
+      <data key="d1">"在眼睑下垂患者中，抬眉代偿是一种无意的反应，帮助暂时抬高下垂的眼睑。"</data>
+      <data key="d2">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+    </node>
+    <node id="&quot;复发性睑缘炎&quot;">
+      <data key="d0">"CONDITION"</data>
+      <data key="d1">"复发性睑缘炎是睑缘炎的持续或反复发作性，容易在恢复之后再次出现症状。"</data>
+      <data key="d2">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+    </node>
+    <node id="&quot;睑板腺炎&quot;">
+      <data key="d0">"CONDITION"</data>
+      <data key="d1">"睑板腺炎是睑缘炎的一种形式，涉及睑板腺的慢性炎症。"</data>
+      <data key="d2">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+    </node>
+    <node id="&quot;动眼神经异常&quot;">
+      <data key="d0">"CONDITION"</data>
+      <data key="d1">"动眼神经异常可能导致眼睑下垂，影响眼皮的正常功能。"</data>
+      <data key="d2">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+    </node>
+    <node id="&quot;视网膜动脉阻塞&quot;">
+      <data key="d0">"DISEASE"</data>
+      <data key="d1">"视网膜动脉阻塞 (Retinal Artery Occlusion), commonly referred to as RAO, is a sudden blockage of blood supply to the retina, considered an ocular stroke and a medical emergency."</data>
+      <data key="d2">chunk-61706f5b83f4423d3070f919b5f4c06d</data>
+    </node>
+    <node id="&quot;单眼突然失明&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"Single-eye sudden blindness is a symptom of retinal artery occlusion where a patient experiences rapid loss of vision in one eye without pain."</data>
+      <data key="d2">chunk-61706f5b83f4423d3070f919b5f4c06d</data>
+    </node>
+    <node id="&quot;玻璃体积血&quot;">
+      <data key="d0">"DISEASE"</data>
+      <data key="d1">"玻璃体积血 (Vitreous Hemorrhage) is a condition where blood enters the vitreous cavity, leading to significant visual obstruction."</data>
+      <data key="d2">chunk-61706f5b83f4423d3070f919b5f4c06d</data>
+    </node>
+    <node id="&quot;角膜营养不良&quot;">
+      <data key="d0">"DISEASE"</data>
+      <data key="d1">"角膜营养不良 (Corneal Dystrophy) is a hereditary condition characterized by decreased corneal transparency and structural changes."</data>
+      <data key="d2">chunk-61706f5b83f4423d3070f919b5f4c06d</data>
+    </node>
+    <node id="&quot;虹膜炎&quot;">
+      <data key="d0">"DISEASE"</data>
+      <data key="d1">"虹膜炎 (Iritis) is an inflammation of the iris, often triggered by autoimmune diseases, causing eye pain and sensitivity to light."</data>
+      <data key="d2">chunk-61706f5b83f4423d3070f919b5f4c06d</data>
+    </node>
+    <node id="&quot;睑内翻&quot;">
+      <data key="d0">"CONDITION"</data>
+      <data key="d1">"睑内翻 (Entropion) is a condition where the eyelid turns inward, causing the eyelashes to rub against the cornea, potentially leading to corneal damage."</data>
+      <data key="d2">chunk-61706f5b83f4423d3070f919b5f4c06d</data>
+    </node>
+    <node id="&quot;睑外翻&quot;">
+      <data key="d0">"CONDITION"</data>
+      <data key="d1">"睑外翻 (Ectropion) is a condition where the eyelid turns outwards, mostly related to facial paralysis, leading to tear overflow and dryness."</data>
+      <data key="d2">chunk-61706f5b83f4423d3070f919b5f4c06d</data>
+    </node>
+    <node id="&quot;眼眶蜂窝织炎&quot;">
+      <data key="d0">"DISEASE"</data>
+      <data key="d1">"眼眶蜂窝织炎 (Orbital Cellulitis) is a life-threatening bacterial infection of the orbital tissues, characterized by fever, protruding eyes, and double vision."&lt;SEP&gt;"眼眶蜂窝织炎 is a serious bacterial infection of the orbital tissue that can be life-threatening."</data>
+      <data key="d2">chunk-14a8344cd76eb646a4bb11f5bcfa450f&lt;SEP&gt;chunk-61706f5b83f4423d3070f919b5f4c06d</data>
+    </node>
+    <node id="&quot;静脉抗生素&quot;">
+      <data key="d0">"TREATMENT"</data>
+      <data key="d1">"Intravenous antibiotics are used to treat severe bacterial infections such as orbital cellulitis, which can be life-threatening."&lt;SEP&gt;"静脉抗生素 are antibiotics administered intravenously, often used to treat severe infections."</data>
+      <data key="d2">chunk-14a8344cd76eb646a4bb11f5bcfa450f&lt;SEP&gt;chunk-61706f5b83f4423d3070f919b5f4c06d</data>
+    </node>
+    <node id="&quot;降低眼压&quot;">
+      <data key="d0">"TREATMENT"</data>
+      <data key="d1">"Lowering intraocular pressure is a recommended immediate treatment for retinal artery occlusion to prevent further damage."</data>
+      <data key="d2">chunk-61706f5b83f4423d3070f919b5f4c06d</data>
+    </node>
+    <node id="&quot;按摩眼球&quot;">
+      <data key="d0">"PROCEDURE"</data>
+      <data key="d1">"Massaging the eyeball is a procedure suggested as an immediate response within one to two hours for retinal artery occlusion."</data>
+      <data key="d2">chunk-61706f5b83f4423d3070f919b5f4c06d</data>
+    </node>
+    <node id="&quot;心脑血管疾病&quot;">
+      <data key="d0">"CONDITION"</data>
+      <data key="d1">"Cardiovascular diseases are conditions that can be related to or complicate retinal artery occlusion."</data>
+      <data key="d2">chunk-61706f5b83f4423d3070f919b5f4c06d</data>
+    </node>
+    <node id="&quot;心脏栓塞&quot;">
+      <data key="d0">"RISK_FACTOR"</data>
+      <data key="d1">"Cardiac embolism is a risk factor often associated with retinal artery occlusion."</data>
+      <data key="d2">chunk-61706f5b83f4423d3070f919b5f4c06d</data>
+    </node>
+    <node id="&quot;寻找出血源&quot;">
+      <data key="d0">"PROCEDURE"</data>
+      <data key="d1">"Finding the source of bleeding is crucial in managing vitreous hemorrhage to identify the cause of ocular bleeding."</data>
+      <data key="d2">chunk-61706f5b83f4423d3070f919b5f4c06d</data>
+    </node>
+    <node id="&quot;玻璃体切除手术&quot;">
+      <data key="d0">"PROCEDURE"</data>
+      <data key="d1">"Vitreous surgery, or vitrectomy, is a procedure performed to remove blood or debris due to vitreous hemorrhage when necessary."</data>
+      <data key="d2">chunk-61706f5b83f4423d3070f919b5f4c06d</data>
+    </node>
+    <node id="&quot;糖尿病&quot;">
+      <data key="d0">"RISK_FACTOR"</data>
+      <data key="d1">"Diabetes is a significant risk factor for vitreous hemorrhage and other ocular conditions."</data>
+      <data key="d2">chunk-61706f5b83f4423d3070f919b5f4c06d</data>
+    </node>
+    <node id="&quot;避免剧烈运动&quot;">
+      <data key="d0">"CARE_TIP"</data>
+      <data key="d1">"Avoiding strenuous exercise is advised for individuals with vitreous hemorrhage to prevent worsening of the condition."</data>
+      <data key="d2">chunk-61706f5b83f4423d3070f919b5f4c06d</data>
+    </node>
+    <node id="&quot;润滑剂&quot;">
+      <data key="d0">"TREATMENT"</data>
+      <data key="d1">"Lubricants are used to alleviate symptoms of corneal dystrophy and ectropion by providing hydration and comfort."&lt;SEP&gt;"润滑剂 is a recommended treatment for 视疲劳, helping to alleviate dry eyes."</data>
+      <data key="d2">chunk-6793fb047637e7e4381d8d717b98301a&lt;SEP&gt;chunk-61706f5b83f4423d3070f919b5f4c06d</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;角膜移植&quot;">
+      <data key="d0">"PROCEDURE"</data>
+      <data key="d1">"Corneal transplant is a surgical procedure recommended for advanced cases of corneal dystrophy to restore vision."</data>
+      <data key="d2">chunk-61706f5b83f4423d3070f919b5f4c06d</data>
+    </node>
+    <node id="&quot;家族性&quot;">
+      <data key="d0">"RISK_FACTOR"</data>
+      <data key="d1">"Heredity is a prominent risk factor for corneal dystrophy, indicating a genetic predisposition to the disease."</data>
+      <data key="d2">chunk-61706f5b83f4423d3070f919b5f4c06d</data>
+    </node>
+    <node id="&quot;角膜 OCT&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Corneal OCT (Optical Coherence Tomography) is a technology used to observe layered changes in corneal dystrophy."</data>
+      <data key="d2">chunk-61706f5b83f4423d3070f919b5f4c06d</data>
+    </node>
+    <node id="&quot;激素滴眼液&quot;">
+      <data key="d0">"MEDICATION"</data>
+      <data key="d1">"Steroid eye drops are prescribed as treatment for iritis to reduce inflammation."</data>
+      <data key="d2">chunk-61706f5b83f4423d3070f919b5f4c06d</data>
+    </node>
+    <node id="&quot;散瞳剂&quot;">
+      <data key="d0">"MEDICATION"</data>
+      <data key="d1">"Mydriatic agents are used in the treatment of iritis to help with eye pain and photophobia by dilating the pupil."</data>
+      <data key="d2">chunk-61706f5b83f4423d3070f919b5f4c06d</data>
+    </node>
+    <node id="&quot;瞳孔长期不动&quot;">
+      <data key="d0">"CONTRAINDICATION"</data>
+      <data key="d1">"Prolonged immobility of the pupil is a contraindication in the treatment of iritis with dilating agents."</data>
+      <data key="d2">chunk-61706f5b83f4423d3070f919b5f4c06d</data>
+    </node>
+    <node id="&quot;晨起疼痛明显&quot;">
+      <data key="d0">"SIGN"</data>
+      <data key="d1">"Increased pain upon waking is a sign often noted in iritis, potentially due to inactivity during sleep."</data>
+      <data key="d2">chunk-61706f5b83f4423d3070f919b5f4c06d</data>
+    </node>
+    <node id="&quot;角膜溃疡&quot;">
+      <data key="d0">"RISK_FACTOR"</data>
+      <data key="d1">"Corneal ulcers can arise as a complication from untreated entropion due to chronic corneal irritation by eyelashes."&lt;SEP&gt;"角膜溃疡是一种严重的眼部感染疾病，可导致永久瘢痕或穿孔，常见症状包括严重眼痛和脓性分泌物。"</data>
+      <data key="d2">chunk-2510fca2545c2e8ea2913105d1f4028c&lt;SEP&gt;chunk-61706f5b83f4423d3070f919b5f4c06d</data>
+    </node>
+    <node id="&quot;面瘫&quot;">
+      <data key="d0">"RISK_FACTOR"</data>
+      <data key="d1">"Facial paralysis is a risk factor associated with ectropion, where the lack of muscular control can lead to the outward rolling of the eyelid."</data>
+      <data key="d2">chunk-61706f5b83f4423d3070f919b5f4c06d</data>
+    </node>
+    <node id="&quot;发热&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"发热 is a common symptom associated with various diseases, characterized by an abnormal increase in body temperature."</data>
+      <data key="d2">chunk-14a8344cd76eb646a4bb11f5bcfa450f</data>
+    </node>
+    <node id="&quot;复视&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"复视, or double vision, is a condition where a person sees two images of a single object."</data>
+      <data key="d2">chunk-14a8344cd76eb646a4bb11f5bcfa450f</data>
+    </node>
+    <node id="&quot;眼球突出&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"眼球突出, or exophthalmos, is a condition where one or both eyeballs protrude from the eye socket."</data>
+      <data key="d2">chunk-14a8344cd76eb646a4bb11f5bcfa450f</data>
+    </node>
+    <node id="&quot;眼周红肿&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"眼周红肿 involves redness and swelling around the eye area."</data>
+      <data key="d2">chunk-14a8344cd76eb646a4bb11f5bcfa450f</data>
+    </node>
+    <node id="&quot;手术引流&quot;">
+      <data key="d0">"PROCEDURE"</data>
+      <data key="d1">"手术引流 is a medical procedure to remove pus or fluid from an infected area through surgery."</data>
+      <data key="d2">chunk-14a8344cd76eb646a4bb11f5bcfa450f</data>
+    </node>
+    <node id="&quot;儿童&quot;">
+      <data key="d0">"RISK_FACTOR"</data>
+      <data key="d1">"Children or 儿童 are at higher risk for congenital 眼震, as it is often inherited or develops early in life."&lt;SEP&gt;"儿童 are at higher risk for certain diseases due to immature immune systems and are noted here as more prone to sinusitis complications leading to orbital cellulitis."</data>
+      <data key="d2">chunk-14a8344cd76eb646a4bb11f5bcfa450f&lt;SEP&gt;chunk-6793fb047637e7e4381d8d717b98301a</data>
+    </node>
+    <node id="&quot;颅内感染&quot;">
+      <data key="d0">"RISK_FACTOR"</data>
+      <data key="d1">"颅内感染 refers to infections that occur within the skull, potentially following delayed treatment of orbital cellulitis."</data>
+      <data key="d2">chunk-14a8344cd76eb646a4bb11f5bcfa450f</data>
+    </node>
+    <node id="&quot;眼睑&quot;">
+      <data key="d0">"SIGN"</data>
+      <data key="d1">"眼睑 refers to the eyelid, which when unable to close forcefully, can be a sign of serious conditions."</data>
+      <data key="d2">chunk-14a8344cd76eb646a4bb11f5bcfa450f</data>
+    </node>
+    <node id="&quot;眼眶脓肿&quot;">
+      <data key="d0">"DISEASE"</data>
+      <data key="d1">"眼眶脓肿, or Orbital Abscess, is a localized collection of pus within the eye socket, often a complication of cellulitis."</data>
+      <data key="d2">chunk-14a8344cd76eb646a4bb11f5bcfa450f</data>
+    </node>
+    <node id="&quot;严重眼球突出&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"严重眼球突出 describes an exaggerated form of exophthalmos where the eyeballs are significantly protruded and can indicate serious underlying conditions."</data>
+      <data key="d2">chunk-14a8344cd76eb646a4bb11f5bcfa450f</data>
+    </node>
+    <node id="&quot;脑膜炎风险&quot;">
+      <data key="d0">"RISK_FACTOR"</data>
+      <data key="d1">"脑膜炎风险 indicates the potential for developing meningitis, an inflammation of the protective membranes covering the brain and spinal cord."</data>
+      <data key="d2">chunk-14a8344cd76eb646a4bb11f5bcfa450f</data>
+    </node>
+    <node id="&quot;CT&quot;">
+      <data key="d0">"PROCEDURE"</data>
+      <data key="d1">"CT, or computed tomography, is an imaging procedure that uses a combination of X-rays and computer technology to produce detailed images of the body."</data>
+      <data key="d2">chunk-14a8344cd76eb646a4bb11f5bcfa450f</data>
+    </node>
+    <node id="&quot;黄斑裂孔&quot;">
+      <data key="d0">"CONDITION"</data>
+      <data key="d1">"黄斑裂孔, or Macular Hole, is a small break in the macula, located in the center of the eye's retina, leading to a loss of central vision."</data>
+      <data key="d2">chunk-14a8344cd76eb646a4bb11f5bcfa450f</data>
+    </node>
+    <node id="&quot;中心黑影&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"中心黑影 refers to a symptom where individuals see dark spots in their central vision, often associated with macular issues."</data>
+      <data key="d2">chunk-14a8344cd76eb646a4bb11f5bcfa450f</data>
+    </node>
+    <node id="&quot;变视症&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"变视症, or metamorphopsia, is a visual defect that causes linear objects, such as lines on a grid, to look curvy or round."</data>
+      <data key="d2">chunk-14a8344cd76eb646a4bb11f5bcfa450f</data>
+    </node>
+    <node id="&quot;阅读困难&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"阅读困难 is a symptom where individuals have difficulty reading, often due to impairments in the central vision."</data>
+      <data key="d2">chunk-14a8344cd76eb646a4bb11f5bcfa450f</data>
+    </node>
+    <node id="&quot;玻璃体切除术&quot;">
+      <data key="d0">"PROCEDURE"</data>
+      <data key="d1">"玻璃体切除术, or vitrectomy, is a surgical procedure where the vitreous humor gel that fills the eye cavity is removed to provide better access to the retina."</data>
+      <data key="d2">chunk-14a8344cd76eb646a4bb11f5bcfa450f</data>
+    </node>
+    <node id="&quot;中心性浆液性视网膜病变&quot;">
+      <data key="d0">"CONDITION"</data>
+      <data key="d1">"中心性浆液性视网膜病变, or CSCR, involves fluid accumulation under the retina, often related to stress and cortisol levels."</data>
+      <data key="d2">chunk-14a8344cd76eb646a4bb11f5bcfa450f</data>
+    </node>
+    <node id="&quot;中心模糊&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"中心模糊 is a symptom involving clouded or blurred central vision."</data>
+      <data key="d2">chunk-14a8344cd76eb646a4bb11f5bcfa450f</data>
+    </node>
+    <node id="&quot;图像变小&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"图像变小 indicates the perception of objects appearing smaller than they are, often related to retinal disorders."</data>
+      <data key="d2">chunk-14a8344cd76eb646a4bb11f5bcfa450f</data>
+    </node>
+    <node id="&quot;颜色变淡&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"颜色变淡 describes a symptom where colors appear less vibrant and more faded than usual."</data>
+      <data key="d2">chunk-14a8344cd76eb646a4bb11f5bcfa450f</data>
+    </node>
+    <node id="&quot;光动力疗法&quot;">
+      <data key="d0">"TREATMENT"</data>
+      <data key="d1">"光动力疗法, or photodynamic therapy, is a treatment that uses light-sensitive medication and a laser to destroy abnormal cells."</data>
+      <data key="d2">chunk-14a8344cd76eb646a4bb11f5bcfa450f</data>
+    </node>
+    <node id="&quot;玻璃体混浊&quot;">
+      <data key="d0">"CONDITION"</data>
+      <data key="d1">"玻璃体混浊 refers to the opacification of the vitreous humor in the eye, often leading to visual disturbances."</data>
+      <data key="d2">chunk-14a8344cd76eb646a4bb11f5bcfa450f</data>
+    </node>
+    <node id="&quot;飞蚊&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"飞蚊, or floaters, are spots in vision that look like black or gray specks or strings that drift across the eyes."&lt;SEP&gt;"飞蚊是视网膜裂孔的表现，患者在视觉中看到漂浮的小黑点或线条。"</data>
+      <data key="d2">chunk-14a8344cd76eb646a4bb11f5bcfa450f&lt;SEP&gt;chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+    </node>
+    <node id="&quot;模糊&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"模糊 is a symptom of 眼震, causing blurred vision."&lt;SEP&gt;"模糊 refers to unclear vision, often associated with various eye conditions."</data>
+      <data key="d2">chunk-14a8344cd76eb646a4bb11f5bcfa450f&lt;SEP&gt;chunk-6793fb047637e7e4381d8d717b98301a</data>
+    </node>
+    <node id="&quot;玻璃体置换&quot;">
+      <data key="d0">"PROCEDURE"</data>
+      <data key="d1">"玻璃体置换, or vitreous replacement, involves replacing the vitreous humor in the eye with a substitute to improve vision."</data>
+      <data key="d2">chunk-14a8344cd76eb646a4bb11f5bcfa450f</data>
+    </node>
+    <node id="&quot;角膜擦伤&quot;">
+      <data key="d0">"CONDITION"</data>
+      <data key="d1">"角膜擦伤, or Corneal Abrasion, is a scratch or injury to the cornea."</data>
+      <data key="d2">chunk-14a8344cd76eb646a4bb11f5bcfa450f</data>
+    </node>
+    <node id="&quot;疼痛&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"疼痛 is a symptom involving discomfort or pain, often a result of injury or disease."</data>
+      <data key="d2">chunk-14a8344cd76eb646a4bb11f5bcfa450f</data>
+    </node>
+    <node id="&quot;流泪&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"流泪, or tearing, refers to excessive tear production, often as a response to irritation or injury."&lt;SEP&gt;"流泪是眼部异物进入眼睛后的常见反应之一。"</data>
+      <data key="d2">chunk-14a8344cd76eb646a4bb11f5bcfa450f&lt;SEP&gt;chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+    </node>
+    <node id="&quot;抗生素滴眼液&quot;">
+      <data key="d0">"MEDICATION"</data>
+      <data key="d1">"抗生素滴眼液 are antibiotic eye drops used to treat or prevent bacterial infections in the eye."</data>
+      <data key="d2">chunk-14a8344cd76eb646a4bb11f5bcfa450f</data>
+    </node>
+    <node id="&quot;绷带隐形眼镜&quot;">
+      <data key="d0">"TREATMENT"</data>
+      <data key="d1">"绷带隐形眼镜 are specialized contact lenses used to protect the cornea and facilitate healing after injury."</data>
+      <data key="d2">chunk-14a8344cd76eb646a4bb11f5bcfa450f</data>
+    </node>
+    <node id="&quot;麻醉滴眼液&quot;">
+      <data key="d0">"CONTRAINDICATION"</data>
+      <data key="d1">"麻醉滴眼液, or anesthetic eye drops, are contraindicated for self-treatment due to potential complications."</data>
+      <data key="d2">chunk-14a8344cd76eb646a4bb11f5bcfa450f</data>
+    </node>
+    <node id="&quot;睑板腺功能障碍&quot;">
+      <data key="d0">"CONDITION"</data>
+      <data key="d1">"睑板腺功能障碍, or Meibomian Gland Dysfunction (MGD), involves abnormal secretion from the meibomian glands, leading to unstable tear film."</data>
+      <data key="d2">chunk-14a8344cd76eb646a4bb11f5bcfa450f</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;干涩&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"干涩 describes dry and scratchy eyes, often due to inadequate lubrication."&lt;SEP&gt;"干涩 is a symptom of 视疲劳, causing dryness in the eyes."&lt;SEP&gt;"干涩是蒸发性干眼的常见症状，表现为眼部干燥不适。"</data>
+      <data key="d2">chunk-14a8344cd76eb646a4bb11f5bcfa450f&lt;SEP&gt;chunk-2510fca2545c2e8ea2913105d1f4028c&lt;SEP&gt;chunk-6793fb047637e7e4381d8d717b98301a</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;视力波动&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"视力波动 involves fluctuations in vision clarity, often associated with underlying eye conditions."&lt;SEP&gt;"视力波动 is a symptom of 视疲劳, causing fluctuating vision."&lt;SEP&gt;"视力波动是蒸发性干眼的症状之一，表现为视力的不稳定性。"</data>
+      <data key="d2">chunk-14a8344cd76eb646a4bb11f5bcfa450f&lt;SEP&gt;chunk-2510fca2545c2e8ea2913105d1f4028c&lt;SEP&gt;chunk-6793fb047637e7e4381d8d717b98301a</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;挤压治疗&quot;">
+      <data key="d0">"TREATMENT"</data>
+      <data key="d1">"挤压治疗 involves the expression of blocked gland secretions, often used in the treatment of MGD."&lt;SEP&gt;"挤压治疗是一种通过物理方式缓解蒸发性干眼症状的方法。"</data>
+      <data key="d2">chunk-14a8344cd76eb646a4bb11f5bcfa450f&lt;SEP&gt;chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;人工泪液&quot;">
+      <data key="d0">"MEDICATION"</data>
+      <data key="d1">"人工泪液, or artificial tears, are drops used to lubricate dry eyes."&lt;SEP&gt;"人工泪液是一种用于润滑眼球表面，缓解蒸发性干眼的治疗方式。"&lt;SEP&gt;"人工泪液是模仿泪液成分的人工制剂，用于缓解眼部干涩。"</data>
+      <data key="d2">chunk-14a8344cd76eb646a4bb11f5bcfa450f&lt;SEP&gt;chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;蠕形螨&quot;">
+      <data key="d0">"RISK_FACTOR"</data>
+      <data key="d1">"蠕形螨, or demodex mites, are a risk factor associated with several eye conditions, contributing to inflammation."&lt;SEP&gt;"蠕形螨与蒸发性干眼有关，可能加重症状。"</data>
+      <data key="d2">chunk-14a8344cd76eb646a4bb11f5bcfa450f&lt;SEP&gt;chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;蒸发性干眼&quot;">
+      <data key="d0">"CONDITION"</data>
+      <data key="d1">"蒸发性干眼是由于泪膜脂层不稳引发的一种眼部不适，常见症状包括干涩和视力波动。"</data>
+      <data key="d2">chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;泪膜脂层不稳&quot;">
+      <data key="d0">"CONDITION"</data>
+      <data key="d1">"泪膜脂层不稳是指眼部泪膜脂层不稳定，导致泪膜蒸发过快，从而引发蒸发性干眼。"</data>
+      <data key="d2">chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;严重眼痛&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"严重眼痛是特指一种强烈的眼部疼痛，通常与角膜溃疡等疾病相关。"&lt;SEP&gt;"严重眼痛是角膜溃疡的主要症状之一，表现为强烈的眼部疼痛。"</data>
+      <data key="d2">chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+    </node>
+    <node id="&quot;脓性分泌物&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"脓性分泌物是角膜溃疡的常见症状，表现为眼部分泌物增多且带有脓性。"</data>
+      <data key="d2">chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+    </node>
+    <node id="&quot;白色角膜斑块&quot;">
+      <data key="d0">"SIGN"</data>
+      <data key="d1">"白色角膜斑块是角膜溃疡的体征，通常为感染所导致。"</data>
+      <data key="d2">chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+    </node>
+    <node id="&quot;抗生素强化滴眼&quot;">
+      <data key="d0">"TREATMENT"</data>
+      <data key="d1">"抗生素强化滴眼是一种用于治疗细菌性角膜溃疡的激进治疗方法。"</data>
+      <data key="d2">chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+    </node>
+    <node id="&quot;抗真菌药&quot;">
+      <data key="d0">"TREATMENT"</data>
+      <data key="d1">"抗真菌药用于治疗真菌性感染所引起的角膜溃疡。"</data>
+      <data key="d2">chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+    </node>
+    <node id="&quot;永久瘢痕&quot;">
+      <data key="d0">"RISK_FACTOR"</data>
+      <data key="d1">"永久瘢痕是角膜溃疡可能导致的严重后果。"</data>
+      <data key="d2">chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+    </node>
+    <node id="&quot;视网膜裂孔&quot;">
+      <data key="d0">"CONDITION"</data>
+      <data key="d1">"视网膜裂孔是视网膜被牵拉导致的破口，是脱离视网膜的前兆，常见症状包括闪光和飞蚊。"</data>
+      <data key="d2">chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+    </node>
+    <node id="&quot;闪光&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"闪光是视网膜裂孔的一种症状，通常是眼睛视野中出现闪烁的光点。"</data>
+      <data key="d2">chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+    </node>
+    <node id="&quot;激光光凝&quot;">
+      <data key="d0">"PROCEDURE"</data>
+      <data key="d1">"激光光凝是一种用于封闭视网膜裂孔的手术，以防止视网膜脱离。"</data>
+      <data key="d2">chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+    </node>
+    <node id="&quot;恶性青光眼&quot;">
+      <data key="d0">"DISEASE"</data>
+      <data key="d1">"恶性青光眼是一种房水逆流导致的高眼压病症，严重时难以控制眼压。"</data>
+      <data key="d2">chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+    </node>
+    <node id="&quot;剧痛&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"剧痛 is a common symptom of 眼表烧伤, characterized by severe pain in the eyes."&lt;SEP&gt;"剧痛指一种极为激烈的痛觉感受，常出现在恶性青光眼等情况下。"&lt;SEP&gt;"剧痛是恶性青光眼的症状之一，表现为剧烈的眼部疼痛。"</data>
+      <data key="d2">chunk-2510fca2545c2e8ea2913105d1f4028c&lt;SEP&gt;chunk-6793fb047637e7e4381d8d717b98301a</data>
+    </node>
+    <node id="&quot;高眼压&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"高眼压是恶性青光眼的常见症状，眼压升高导致视力受损。"</data>
+      <data key="d2">chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+    </node>
+    <node id="&quot;高渗剂&quot;">
+      <data key="d0">"MEDICATION"</data>
+      <data key="d1">"高渗剂是一种治疗药物，旨在通过渗透压控制眼内压力，常用于恶性青光眼的治疗。"&lt;SEP&gt;"高渗剂用于治疗恶性青光眼，以降低眼内高压。"</data>
+      <data key="d2">chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+    </node>
+    <node id="&quot;眼表烧伤&quot;">
+      <data key="d0">"CONDITION"</data>
+      <data key="d1">"眼表烧伤 is an acute injury to the ocular surface caused by chemical or thermal agents."&lt;SEP&gt;"眼表烧伤是指由于化学或热力损伤眼睛表面的一种眼外伤。"</data>
+      <data key="d2">chunk-2510fca2545c2e8ea2913105d1f4028c&lt;SEP&gt;chunk-6793fb047637e7e4381d8d717b98301a</data>
+    </node>
+    <node id="&quot;角膜混浊&quot;">
+      <data key="d0">"SIGN"</data>
+      <data key="d1">"角膜混浊 is a symptom of 眼表烧伤, where the cornea becomes clouded."&lt;SEP&gt;"角膜混浊是眼表烧伤的症状之一，表现为角膜的透明度降低。"</data>
+      <data key="d2">chunk-2510fca2545c2e8ea2913105d1f4028c&lt;SEP&gt;chunk-6793fb047637e7e4381d8d717b98301a</data>
+    </node>
+    <node id="&quot;大量冲洗&quot;">
+      <data key="d0">"PROCEDURE"</data>
+      <data key="d1">"大量冲洗 is a recommended treatment for 眼表烧伤, involving thorough irrigation of the eye surface."&lt;SEP&gt;"大量冲洗是眼表烧伤急救时的主要处理方式，以清除致伤物质。"</data>
+      <data key="d2">chunk-2510fca2545c2e8ea2913105d1f4028c&lt;SEP&gt;chunk-6793fb047637e7e4381d8d717b98301a</data>
+    </node>
+    <node id="&quot;色素性视网膜炎&quot;">
+      <data key="d0">"DISEASE"</data>
+      <data key="d1">"色素性视网膜炎是一种导致光感受器退化的遗传性视网膜疾病，最终可能导致失明。"</data>
+      <data key="d2">chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+    </node>
+    <node id="&quot;夜盲&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"夜盲是一种在低光照度条件下失去视力的症状，常见于色素性视网膜炎。"&lt;SEP&gt;"夜盲是色素性视网膜炎的早期症状，表现为在低光环境中的视力下降。"</data>
+      <data key="d2">chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+    </node>
+    <node id="&quot;基因治疗&quot;">
+      <data key="d0">"TREATMENT"</data>
+      <data key="d1">"基因治疗是针对色素性视网膜炎的研究中的潜在治疗方法。"</data>
+      <data key="d2">chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+    </node>
+    <node id="&quot;眼部异物&quot;">
+      <data key="d0">"CONDITION"</data>
+      <data key="d1">"眼部异物指如金属或木屑进入眼睛造成的创伤。"</data>
+      <data key="d2">chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+    </node>
+    <node id="&quot;暴露性角膜炎&quot;">
+      <data key="d0">"CONDITION"</data>
+      <data key="d1">"暴露性角膜炎是因为眼睑无法完全闭合导致角膜暴露引发的炎症和干燥症状。"</data>
+      <data key="d2">chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+    </node>
+    <node id="&quot;不能完全闭眼&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"不能完全闭眼是暴露性角膜炎的主要表现之一。"</data>
+      <data key="d2">chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+    </node>
+    <node id="&quot;房水逆流&quot;">
+      <data key="d0">"CONDITION"</data>
+      <data key="d1">"房水逆流是指眼内房水异常流向，通常会导致青光眼的恶化。"</data>
+      <data key="d2">chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+    </node>
+    <node id="&quot;房水路径&quot;">
+      <data key="d0">"ANATOMICAL_STRUCTURE"</data>
+      <data key="d1">"房水路径是眼内部允许房水正常循环的通道，异常可导致青光眼。"</data>
+      <data key="d2">chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+    </node>
+    <node id="&quot;房水&quot;">
+      <data key="d0">"BODY_FLUID"</data>
+      <data key="d1">"房水是填充于眼球前房和后房的液体，参与维持眼内压的恒定。"</data>
+      <data key="d2">chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+    </node>
+    <node id="&quot;角膜&quot;">
+      <data key="d0">"ANATOMICAL_STRUCTURE"</data>
+      <data key="d1">"角膜是覆盖在眼睛前部的透明膜，负责折射光线进入眼内。"</data>
+      <data key="d2">chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+    </node>
+    <node id="&quot;眼科医生&quot;">
+      <data key="d0">"ROLE"</data>
+      <data key="d1">"眼科医生是专门从事眼部疾病和护理的医学专业人员。"</data>
+      <data key="d2">chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+    </node>
+    <node id="&quot;激素/抗生素治疗&quot;">
+      <data key="d0">"TREATMENT"</data>
+      <data key="d1">"激素/抗生素治疗 is used for treating 眼表烧伤, involving the use of steroids and antibiotics."</data>
+      <data key="d2">chunk-6793fb047637e7e4381d8d717b98301a</data>
+    </node>
+    <node id="&quot;强碱烧伤&quot;">
+      <data key="d0">"RISK_FACTOR"</data>
+      <data key="d1">"强碱烧伤 is a risk factor for 眼表烧伤, where burns caused by strong alkali are more severe."</data>
+      <data key="d2">chunk-6793fb047637e7e4381d8d717b98301a</data>
+    </node>
+    <node id="&quot;视疲劳&quot;">
+      <data key="d0">"CONDITION"</data>
+      <data key="d1">"视疲劳, also known as Asthenopia, is a condition resulting from prolonged close-up activities, leading to eye strain and dryness."</data>
+      <data key="d2">chunk-6793fb047637e7e4381d8d717b98301a</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;酸痛&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"酸痛 is a symptom of 视疲劳, causing aching in the eyes."</data>
+      <data key="d2">chunk-6793fb047637e7e4381d8d717b98301a</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;20-20-20 规则&quot;">
+      <data key="d0">"CARE_TIP"</data>
+      <data key="d1">"20-20-20 规则 is a recommended care tip for managing 视疲劳, suggesting regular breaks during screen time."</data>
+      <data key="d2">chunk-6793fb047637e7e4381d8d717b98301a</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;干眼&quot;">
+      <data key="d0">"RISK_FACTOR"</data>
+      <data key="d1">"干眼 is a risk factor for 视疲劳, as the condition can worsen dry eyes."</data>
+      <data key="d2">chunk-6793fb047637e7e4381d8d717b98301a</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;眼震&quot;">
+      <data key="d0">"CONDITION"</data>
+      <data key="d1">"眼震, also known as Nystagmus, is a condition involving involuntary eye movements that can affect stable vision."</data>
+      <data key="d2">chunk-6793fb047637e7e4381d8d717b98301a</data>
+    </node>
+    <node id="&quot;头位偏斜&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"头位偏斜 is a symptom of 眼震, involving an abnormal head position."</data>
+      <data key="d2">chunk-6793fb047637e7e4381d8d717b98301a</data>
+    </node>
+    <node id="&quot;部分药物辅助&quot;">
+      <data key="d0">"TREATMENT"</data>
+      <data key="d1">"部分药物辅助 involves the use of medications to assist in managing 眼震."</data>
+      <data key="d2">chunk-6793fb047637e7e4381d8d717b98301a</data>
+    </node>
+    <node id="&quot;视功能训练&quot;">
+      <data key="d0">"TREATMENT"</data>
+      <data key="d1">"视功能训练 is a treatment for 眼震, involving exercises to improve visual function."</data>
+      <data key="d2">chunk-6793fb047637e7e4381d8d717b98301a</data>
+    </node>
+    <node id="&quot;手术改善头位&quot;">
+      <data key="d0">"PROCEDURE"</data>
+      <data key="d1">"手术改善头位 is a procedure for treating 眼震, aimed at improving head posture."</data>
+      <data key="d2">chunk-6793fb047637e7e4381d8d717b98301a</data>
+    </node>
+    <node id="&quot;视力低下&quot;">
+      <data key="d0">"RISK_FACTOR"</data>
+      <data key="d1">"视力低下 is a risk factor related to 眼震, often accompanying the condition."</data>
+      <data key="d2">chunk-6793fb047637e7e4381d8d717b98301a</data>
+    </node>
+    <node id="&quot;眼表&quot;">
+      <data key="d0">"ANATOMY"</data>
+      <data key="d1">"The ocular surface or 眼表 is the part of the eye that can be damaged by chemical or thermal burns."</data>
+      <data key="d2">chunk-6793fb047637e7e4381d8d717b98301a</data>
+    </node>
+    <node id="&quot;冲洗时间&quot;">
+      <data key="d0">"CARE_TIP"</data>
+      <data key="d1">"The care tip suggests that the irrigation time or 冲洗时间 should be at least 30 minutes for effective treatment of 眼表烧伤."</data>
+      <data key="d2">chunk-6793fb047637e7e4381d8d717b98301a</data>
+    </node>
+    <node id="&quot;屏幕亮度&quot;">
+      <data key="d0">"RISK_FACTOR"</data>
+      <data key="d1">"Screen brightness or 屏幕亮度 being higher than ambient light is a risk factor for worsening 视疲劳."</data>
+      <data key="d2">chunk-6793fb047637e7e4381d8d717b98301a</data>
+    </node>
+    <node id="&quot;ASTHENOPIA&quot;">
+      <data key="d0">"CONDITION"</data>
+      <data key="d1">"Asthenopia, also known as 视疲劳, is characterized by eye strain caused by prolonged close-up activities."</data>
+      <data key="d2">chunk-6793fb047637e7e4381d8d717b98301a</data>
+    </node>
+    <node id="&quot;视觉模糊&quot;">
+      <data key="d0">"SYMPTOM"</data>
+      <data key="d1">"视觉模糊 refers to the blurring of vision, a symptom common in conditions like 视疲劳 and 眼震."</data>
+      <data key="d2">chunk-6793fb047637e7e4381d8d717b98301a</data>
+    </node>
+    <node id="&quot;眼球&quot;">
+      <data key="d0">"ANATOMY"</data>
+      <data key="d1">"The eyeball or 眼球 is involved in the condition called 眼震, where involuntary movement affects stability."</data>
+      <data key="d2">chunk-6793fb047637e7e4381d8d717b98301a</data>
+    </node>
+    <node id="&quot;先天性&quot;">
+      <data key="d0">"RISK_FACTOR"</data>
+      <data key="d1">"Congenital or 先天性 refers to conditions present from birth, such as 眼震 in many children."</data>
+      <data key="d2">chunk-6793fb047637e7e4381d8d717b98301a</data>
+    </node>
+    <node id="&quot;AGE-RELATED MACULAR DEGENERATION (AMD)&quot;">
+      <data key="d2">chunk-6dc3e90d1f5a2984385ccd3938e92342</data>
+      <data key="d1">"Lutein and Zeaxanthin Supplements are used to treat dry AMD."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;虹膜前部炎症&quot;">
+      <data key="d2">chunk-61706f5b83f4423d3070f919b5f4c06d</data>
+      <data key="d1">"虹膜炎 involves inflammation in the anterior part of the iris, often due to immune system issues."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;睫毛摩擦角膜&quot;">
+      <data key="d2">chunk-61706f5b83f4423d3070f919b5f4c06d</data>
+      <data key="d1">"In entropion, the inward rolling of the eyelid causes eyelashes to rub against the cornea, leading to damage."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <edge source="&quot;CATARACT&quot;" target="&quot;PYRIDOXINE EYE DROPS&quot;">
+      <data key="d4">3.0</data>
+      <data key="d5">"Pyridoxine Eye Drops are used in the early stages of Cataract treatment but are not very effective. "</data>
+      <data key="d6">chunk-6dc3e90d1f5a2984385ccd3938e92342</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;CATARACT&quot;" target="&quot;CATARACT PHACOEMULSIFICATION SURGERY&quot;">
+      <data key="d4">10.0</data>
+      <data key="d5">"Cataract Phacoemulsification Surgery is a definitive treatment option for Cataract."</data>
+      <data key="d6">chunk-6dc3e90d1f5a2984385ccd3938e92342</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;CATARACT&quot;" target="&quot;DIABETES&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Diabetes can cause Cataracts to progress more rapidly."</data>
+      <data key="d6">chunk-6dc3e90d1f5a2984385ccd3938e92342</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;LUTEIN AND ZEAXANTHIN SUPPLEMENTS&quot;" target="&quot;AGE-RELATED MACULAR DEGENERATION (AMD)&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"Lutein and Zeaxanthin Supplements are used to treat dry AMD."</data>
+      <data key="d6">chunk-6dc3e90d1f5a2984385ccd3938e92342</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;SMOKING&quot;" target="&quot;AGE-RELATED MACULAR DEGENERATION (AMD)&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Smoking is a significant risk factor for AMD, increasing the likelihood of disease development."</data>
+      <data key="d6">chunk-6dc3e90d1f5a2984385ccd3938e92342</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ACUTE ANGLE-CLOSURE GLAUCOMA&quot;" target="&quot;MANNITOL&quot;">
+      <data key="d4">10.0</data>
+      <data key="d5">"Mannitol is used for immediate reduction of intraocular pressure in cases of acute angle-closure glaucoma."</data>
+      <data key="d6">chunk-6dc3e90d1f5a2984385ccd3938e92342</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ACUTE ANGLE-CLOSURE GLAUCOMA&quot;" target="&quot;ACETAZOLAMIDE&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"Acetazolamide is used to suppress aqueous humor production in the treatment of acute angle-closure glaucoma."</data>
+      <data key="d6">chunk-6dc3e90d1f5a2984385ccd3938e92342</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ACUTE ANGLE-CLOSURE GLAUCOMA&quot;" target="&quot;LASER PERIPHERAL IRIDOTOMY&quot;">
+      <data key="d4">10.0</data>
+      <data key="d5">"Laser Peripheral Iridotomy is a surgical intervention used in managing acute angle-closure glaucoma."</data>
+      <data key="d6">chunk-6dc3e90d1f5a2984385ccd3938e92342</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;DRY EYE DISEASE&quot;" target="&quot;ARTIFICIAL TEARS&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Artificial Tears are prescribed to alleviate the symptoms of Dry Eye Disease."</data>
+      <data key="d6">chunk-6dc3e90d1f5a2984385ccd3938e92342</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ARTIFICIAL TEARS&quot;" target="&quot;KERATOCONJUNCTIVITIS SICCA&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"Artificial Tears are recommended for treating eye dryness in Keratoconjunctivitis Sicca."</data>
+      <data key="d6">chunk-c6446ec3015ea72a17d62e3b2a75173d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;KERATITIS&quot;" target="&quot;LEVOFLOXACIN EYE DROPS&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Levofloxacin Eye Drops are used to treat bacterial forms of Keratitis."</data>
+      <data key="d6">chunk-6dc3e90d1f5a2984385ccd3938e92342</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;KERATITIS&quot;" target="&quot;VORICONAZOLE&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Voriconazole is administered for fungal Keratitis."</data>
+      <data key="d6">chunk-6dc3e90d1f5a2984385ccd3938e92342</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;KERATITIS&quot;" target="&quot;GANCICLOVIR&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Ganciclovir is employed in the treatment of viral Keratitis."</data>
+      <data key="d6">chunk-6dc3e90d1f5a2984385ccd3938e92342</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;VORICONAZOLE&quot;" target="&quot;CONJUNCTIVITIS&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Voriconazole treats fungal causes of Conjunctivitis."</data>
+      <data key="d6">chunk-c6446ec3015ea72a17d62e3b2a75173d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;GANCICLOVIR&quot;" target="&quot;CONJUNCTIVITIS&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Ganciclovir is recommended for viral causes of Conjunctivitis."</data>
+      <data key="d6">chunk-c6446ec3015ea72a17d62e3b2a75173d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;CONJUNCTIVITIS&quot;" target="&quot;TOBRAMYCIN&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"Tobramycin is recommended for treating bacterial causes of Conjunctivitis."</data>
+      <data key="d6">chunk-c6446ec3015ea72a17d62e3b2a75173d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;CONJUNCTIVITIS&quot;" target="&quot;ANTIHISTAMINE EYE DROPS&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Antihistamine eye drops are used to treat allergic conjunctivitis."</data>
+      <data key="d6">chunk-c6446ec3015ea72a17d62e3b2a75173d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;EYE PAIN&quot;" target="&quot;POSTERIOR SYNECHIAE&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Eye pain is a symptom that may occur when the iris adheres to lens surfaces due to inflammation (Posterior Synechiae)."</data>
+      <data key="d6">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;VISION LOSS&quot;" target="&quot;OPTIC ATROPHY&quot;">
+      <data key="d4">10.0</data>
+      <data key="d5">"Optic atrophy results in vision loss as a consequence of nerve fiber damage."</data>
+      <data key="d6">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;UVEITIS&quot;" target="&quot;STEROID EYE DROPS&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"Steroid eye drops are used to treat inflammation associated with Uveitis."</data>
+      <data key="d6">chunk-c6446ec3015ea72a17d62e3b2a75173d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;UVEITIS&quot;" target="&quot;ATROPINE&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Atropine is used as a mydriatic to manage Uveitis."</data>
+      <data key="d6">chunk-c6446ec3015ea72a17d62e3b2a75173d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;RETINAL DETACHMENT&quot;" target="&quot;SURGERY (VITRECTOMY, SCLERAL BUCKLING, LASER)&quot;">
+      <data key="d4">10.0</data>
+      <data key="d5">"These surgical procedures are used to correct Retinal Detachment."</data>
+      <data key="d6">chunk-c6446ec3015ea72a17d62e3b2a75173d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;DIABETIC RETINOPATHY&quot;" target="&quot;VEGF INHIBITOR INJECTIONS&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"VEGF inhibitor injections are used as a treatment for Diabetic Retinopathy."</data>
+      <data key="d6">chunk-c6446ec3015ea72a17d62e3b2a75173d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;DIABETIC RETINOPATHY&quot;" target="&quot;LASER PHOTOCOAGULATION&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Laser Photocoagulation is used to treat Diabetic Retinopathy by sealing leaking blood vessels."</data>
+      <data key="d6">chunk-c6446ec3015ea72a17d62e3b2a75173d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;FLOATERS&quot;" target="&quot;PHOTOPSIA&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Photopsia often occurs alongside floaters, indicating a potential vitreous detachment or retinal issue."</data>
+      <data key="d6">chunk-59c13b115638e5e42e562c2220f923f8</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;FLOATERS&quot;" target="&quot;MYOPIA&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"High myopia is a risk factor for floaters as it increases the likelihood of retinal detachment."</data>
+      <data key="d6">chunk-59c13b115638e5e42e562c2220f923f8</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;PHOTOPSIA&quot;" target="&quot;CHRONIC OPEN-ANGLE GLAUCOMA&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"Flash sensations associated with photopsia might prompt checks to rule out retinal tears, relevant for patients with glaucoma due to pressure effects on eye structures."</data>
+      <data key="d6">chunk-59c13b115638e5e42e562c2220f923f8</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;CHRONIC OPEN-ANGLE GLAUCOMA&quot;" target="&quot;MYOPIA&quot;">
+      <data key="d4">5.0</data>
+      <data key="d5">"Both conditions, myopia, and glaucoma, require regular eye checkups, especially as myopia can increase the risk of conditions affecting the retina and optic nerve."</data>
+      <data key="d6">chunk-59c13b115638e5e42e562c2220f923f8</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;STYE&quot;" target="&quot;CHALAZION&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Both styes and chalazions affect the eyelid, although styes are infectious and painful, while chalazions are non-infectious and painless."</data>
+      <data key="d6">chunk-59c13b115638e5e42e562c2220f923f8</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;CHALAZION&quot;" target="&quot;MYOPIA&quot;">
+      <data key="d4">4.0</data>
+      <data key="d5">"Healthy eyelid hygiene can prevent chalazion reoccurrence, and is vital for myopia management to ensure clear vision."</data>
+      <data key="d6">chunk-59c13b115638e5e42e562c2220f923f8</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ASTIGMATISM&quot;" target="&quot;BLURRINESS&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Astigmatism causes blurriness due to improper light focusing on the retina."</data>
+      <data key="d6">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ASTIGMATISM&quot;" target="&quot;GHOSTING&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Astigmatism leads to ghosting or seeing duplicate images due to improper focus."</data>
+      <data key="d6">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ASTIGMATISM&quot;" target="&quot;NIGHTTIME GLARE&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Astigmatism affects light reflection and can cause nighttime glare."</data>
+      <data key="d6">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ASTIGMATISM&quot;" target="&quot;VISION CORRECTION EYEWEAR&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"Eyeglasses and contact lenses help correct the refractive error caused by astigmatism."</data>
+      <data key="d6">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ASTIGMATISM&quot;" target="&quot;LASER CORRECTION&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Laser correction is a procedure used to reshape the cornea and correct astigmatism."</data>
+      <data key="d6">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ASTIGMATISM&quot;" target="&quot;EYE STRAIN FROM UNCORRECTED ASTIGMATISM&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Failure to correct astigmatism can result in eye strain and fatigue."</data>
+      <data key="d6">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ASTIGMATISM&quot;" target="&quot;CORNEAL TOPOGRAPHY&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"Corneal topography is used to diagnose and evaluate the severity of astigmatism."</data>
+      <data key="d6">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;HYPEROPIA&quot;" target="&quot;DIFFICULTY FOCUSING CLOSE-UP&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"Hyperopia causes difficulty in focusing on near objects, especially in younger individuals."</data>
+      <data key="d6">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;HYPEROPIA&quot;" target="&quot;EYE DISCOMFORT&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Hyperopia is associated with eye discomfort from excessive focusing effort."</data>
+      <data key="d6">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;HYPEROPIA&quot;" target="&quot;HEADACHE&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Chronic focusing effort due to hyperopia can lead to headaches."</data>
+      <data key="d6">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;HYPEROPIA&quot;" target="&quot;PLUS LENSES&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"Plus lenses correct hyperopia by aiding the eye's focusing on close objects."</data>
+      <data key="d6">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;HYPEROPIA&quot;" target="&quot;ANGLE-CLOSURE GLAUCOMA RISK&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Severe hyperopia can predispose individuals to angle-closure glaucoma due to anatomical factors."</data>
+      <data key="d6">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;HYPEROPIA&quot;" target="&quot;REGULAR FOLLOW-UP FOR CHILDREN'S HYPEROPIA&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Regular eye exams help monitor and manage hyperopia in children."</data>
+      <data key="d6">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;STRABISMUS&quot;" target="&quot;EYES MISALIGNMENT&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"Strabismus results in eyes misalignment, affecting binocular vision development."</data>
+      <data key="d6">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;STRABISMUS&quot;" target="&quot;DOUBLE VISION (ADULTS)&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Adults with strabismus may experience double vision due to eye misalignment."</data>
+      <data key="d6">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;STRABISMUS&quot;" target="&quot;AMBLYOPIA (CHILDREN)&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Strabismus in children can lead to amblyopia due to ineffective visual development."</data>
+      <data key="d6">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;STRABISMUS&quot;" target="&quot;EYE PATCH THERAPY&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Eye patch therapy helps realign vision in strabismus by strengthening weakened eye muscles."</data>
+      <data key="d6">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;STRABISMUS&quot;" target="&quot;STRABISMUS SURGERY&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"Surgery corrects the alignment of the eyes in strabismus for better visual outcomes."</data>
+      <data key="d6">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;STRABISMUS&quot;" target="&quot;EARLY TREATMENT BENEFITS&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"Treating strabismus early results in better functional and cosmetic outcomes."</data>
+      <data key="d6">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;AMBLYOPIA&quot;" target="&quot;POOR VISION IN ONE EYE&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"Amblyopia leads to poor visual acuity in one eye due to developmental deficits."</data>
+      <data key="d6">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;AMBLYOPIA&quot;" target="&quot;BINOCULAR VISION DISCREPANCY&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Amblyopia causes discrepancies in binocular vision if left untreated."</data>
+      <data key="d6">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;AMBLYOPIA&quot;" target="&quot;VISION TRAINING&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"Vision training is employed to stimulate visual development and improve acuity in amblyopia."</data>
+      <data key="d6">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;AMBLYOPIA&quot;" target="&quot;EARLY VISION SCREENING RECOMMENDATION&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"Early screening in children helps to detect and treat amblyopia efficiently."</data>
+      <data key="d6">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;DIPLOPIA&quot;" target="&quot;DOUBLE IMAGE&quot;">
+      <data key="d4">10.0</data>
+      <data key="d5">"Diplopia is characterized by seeing two images of a single object instead of one."</data>
+      <data key="d6">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;DIPLOPIA&quot;" target="&quot;DIZZINESS&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Diplopia can cause dizziness due to visual confusion and incorrect spatial orientation."</data>
+      <data key="d6">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;DIPLOPIA&quot;" target="&quot;EYE MISALIGNMENT&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"Eye misalignment in diplopia leads to each eye perceiving images at different angles."</data>
+      <data key="d6">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;DIPLOPIA&quot;" target="&quot;PRISM GLASSES&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Prism glasses help alleviate diplopia by realigning how images are projected within the visual field."</data>
+      <data key="d6">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;DIPLOPIA&quot;" target="&quot;NEUROVASCULAR CONDITION INVESTIGATION&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Prolonged diplopia requires investigation of potential neurological or vascular causes."</data>
+      <data key="d6">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;POSTERIOR SYNECHIAE&quot;" target="&quot;BLURRED VISION&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Posterior Synechiae can cause blurred vision by disrupting normal aqueous humor flow around the iris."</data>
+      <data key="d6">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;POSTERIOR SYNECHIAE&quot;" target="&quot;MYDRIATICS&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"Mydriatics prevent or treat posterior synechiae by dilating the pupils, separating the iris from other structures."</data>
+      <data key="d6">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;POSTERIOR SYNECHIAE&quot;" target="&quot;GLAUCOMA RISK DUE TO POSTERIOR SYNECHIAE&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Adhesions in posterior synechiae can block fluid pathways, raising intraocular pressure and risking glaucoma."</data>
+      <data key="d6">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;POSTERIOR SYNECHIAE&quot;" target="&quot;EARLY MYDRIASIS IN UVEITIS&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"Early mydriasis is recommended in uveitis to prevent iris-lens adhesions or synechiae."</data>
+      <data key="d6">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;OPTIC ATROPHY&quot;" target="&quot;VISUAL FIELD CONSTRICTION&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Optic atrophy may cause visual field constriction due to degeneration of optic nerve axons."</data>
+      <data key="d6">chunk-61a3433595a4c64ffc02ecb570d32e00</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;视神经萎缩&quot;" target="&quot;视力下降&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"视力下降是视神经萎缩的直接结果，反映了疾病对患者视力的影响。"</data>
+      <data key="d6">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;视神经萎缩&quot;" target="&quot;视野缩小&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"视野缩小是由视神经萎缩过程中的视神经损伤引起的症状。"</data>
+      <data key="d6">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;视神经萎缩&quot;" target="&quot;营养神经药物&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"营养神经药物在视神经萎缩的治疗中被用作辅助疗法来支持神经功能。"</data>
+      <data key="d6">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;视神经萎缩&quot;" target="&quot;青光眼&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"青光眼是视神经萎缩的一个主要病因，通过增加眼压损害视神经。"</data>
+      <data key="d6">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;眼睑下垂&quot;" target="&quot;单/双侧下垂&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"单/双侧下垂是眼睑下垂的主要表现特征之一。"</data>
+      <data key="d6">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;眼睑下垂&quot;" target="&quot;抬眉代偿&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"抬眉代偿是一种因应眼睑下垂而采取的自发性机制。"</data>
+      <data key="d6">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;眼睑下垂&quot;" target="&quot;手术矫正&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"手术矫正是治疗眼睑下垂的一种主要方法，通过提升眼皮位置。"</data>
+      <data key="d6">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;眼睑下垂&quot;" target="&quot;动眼神经麻痹&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"动眼神经麻痹可能引发眼睑下垂，是一种病理机制。"</data>
+      <data key="d6">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;手术矫正&quot;" target="&quot;睑外翻&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Ectropion is often corrected via surgery to reposition the eyelid and prevent complications."</data>
+      <data key="d6">chunk-61706f5b83f4423d3070f919b5f4c06d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;眼部带状疱疹&quot;" target="&quot;皮肤疱疹&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"皮肤疱疹是眼部带状疱疹感染所引起的常见症状。"</data>
+      <data key="d6">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;眼部带状疱疹&quot;" target="&quot;水痘带状疱疹病毒&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"水痘带状疱疹病毒是眼部带状疱疹的原发病因，导致眼部区域的感染。"</data>
+      <data key="d6">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;眼部带状疱疹&quot;" target="&quot;阿昔洛韦&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"阿昔洛韦用于治疗眼部带状疱疹，通过抗病毒特性来减缓症状。"</data>
+      <data key="d6">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;眼部带状疱疹&quot;" target="&quot;更昔洛韦凝胶&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"更昔洛韦凝胶直接施用于感染区域以控制眼部带状疱疹。"</data>
+      <data key="d6">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;玻璃体后脱离&quot;" target="&quot;闪光感&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"闪光感是由玻璃体后脱离引起的视觉异常现象。"</data>
+      <data key="d6">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;玻璃体后脱离&quot;" target="&quot;飞蚊增多&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"飞蚊增多是玻璃体后脱离状态下患者常见的视觉症状。"</data>
+      <data key="d6">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;玻璃体后脱离&quot;" target="&quot;高度近视&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"高度近视是玻璃体后脱离的一个高风险因素，增加发生的概率。"</data>
+      <data key="d6">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;睑缘炎&quot;" target="&quot;睫毛根部结痂&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"睑缘炎常导致睫毛根部结痂，是慢性炎症反应的一种表现。"</data>
+      <data key="d6">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;睑缘炎&quot;" target="&quot;红痒&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"红痒是睑缘炎的标志性症状，反映了炎症带来的不适。"</data>
+      <data key="d6">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;睑缘炎&quot;" target="&quot;眼干&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"眼干是睑缘炎的常见症状之一，影响患者的眼部舒适度。"</data>
+      <data key="d6">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;睑缘炎&quot;" target="&quot;热敷&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"热敷帮助缓解睑缘炎症状，增加血液流动和舒缓炎症。"</data>
+      <data key="d6">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;热敷&quot;" target="&quot;睑板腺功能障碍&quot;">
+      <data key="d4">14.0</data>
+      <data key="d5">"热敷 is used in the treatment of 睑板腺功能障碍 to aid in relieving blocked gland secretions."</data>
+      <data key="d6">chunk-14a8344cd76eb646a4bb11f5bcfa450f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;热敷&quot;" target="&quot;蒸发性干眼&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"热敷是缓解蒸发性干眼症状的推荐治疗方法。"</data>
+      <data key="d6">chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;视网膜静脉阻塞&quot;" target="&quot;灰蒙感&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"灰蒙感是视网膜静脉阻塞带来的视觉障碍，影响视野清晰度。"</data>
+      <data key="d6">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;视网膜静脉阻塞&quot;" target="&quot;抗 VEGF 注射&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"抗 VEGF 注射用于防治视网膜静脉阻塞，通过抑制异常血管生成。"</data>
+      <data key="d6">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;视网膜静脉阻塞&quot;" target="&quot;视网膜激光&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"视网膜激光治疗可以帮助减轻视网膜静脉阻塞的病情。"</data>
+      <data key="d6">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;视网膜静脉阻塞&quot;" target="&quot;高血压&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"高血压患者风险更高，并且可能增加视网膜静脉阻塞的发生率。"</data>
+      <data key="d6">chunk-8b5a9485f32686b4377f3864b4198bb7</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;高血压&quot;" target="&quot;视网膜动脉阻塞&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"High blood pressure is a risk factor and can be related to conditions like retinal artery occlusion."</data>
+      <data key="d6">chunk-61706f5b83f4423d3070f919b5f4c06d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;视网膜动脉阻塞&quot;" target="&quot;单眼突然失明&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"视网膜动脉阻塞 leads to symptoms like single-eye sudden blindness due to a blockage of blood supply to the retina."</data>
+      <data key="d6">chunk-61706f5b83f4423d3070f919b5f4c06d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;虹膜炎&quot;" target="&quot;虹膜前部炎症&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"虹膜炎 involves inflammation in the anterior part of the iris, often due to immune system issues."</data>
+      <data key="d6">chunk-61706f5b83f4423d3070f919b5f4c06d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;睑内翻&quot;" target="&quot;睫毛摩擦角膜&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"In entropion, the inward rolling of the eyelid causes eyelashes to rub against the cornea, leading to damage."</data>
+      <data key="d6">chunk-61706f5b83f4423d3070f919b5f4c06d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;眼眶蜂窝织炎&quot;" target="&quot;静脉抗生素&quot;">
+      <data key="d4">28.0</data>
+      <data key="d5">"Because of the serious nature of orbital cellulitis, intravenous antibiotics are necessary to combat the infection."&lt;SEP&gt;"静脉抗生素 are recommended as a treatment for 眼眶蜂窝织炎 to control the bacterial infection."</data>
+      <data key="d6">chunk-14a8344cd76eb646a4bb11f5bcfa450f&lt;SEP&gt;chunk-61706f5b83f4423d3070f919b5f4c06d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;眼眶蜂窝织炎&quot;" target="&quot;手术引流&quot;">
+      <data key="d4">16.0</data>
+      <data key="d5">"手术引流 is sometimes necessary in treating 眼眶蜂窝织炎 to remove accumulated pus."</data>
+      <data key="d6">chunk-14a8344cd76eb646a4bb11f5bcfa450f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;眼眶蜂窝织炎&quot;" target="&quot;儿童&quot;">
+      <data key="d4">14.0</data>
+      <data key="d5">"儿童 are at greater risk for developing 眼眶蜂窝织炎 due to complications from sinusitis."</data>
+      <data key="d6">chunk-14a8344cd76eb646a4bb11f5bcfa450f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;眼眶蜂窝织炎&quot;" target="&quot;颅内感染&quot;">
+      <data key="d4">16.0</data>
+      <data key="d5">"Delayed treatment of 眼眶蜂窝织炎 can result in serious complications, including 颅内感染."</data>
+      <data key="d6">chunk-14a8344cd76eb646a4bb11f5bcfa450f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;眼眶蜂窝织炎&quot;" target="&quot;眼睑&quot;">
+      <data key="d4">12.0</data>
+      <data key="d5">"The inability to forcefully close the 眼睑 is a dangerous sign in the context of 眼眶蜂窝织炎."</data>
+      <data key="d6">chunk-14a8344cd76eb646a4bb11f5bcfa450f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;静脉抗生素&quot;" target="&quot;眼眶脓肿&quot;">
+      <data key="d4">18.0</data>
+      <data key="d5">"静脉抗生素 are used to treat the bacterial infection associated with 眼眶脓肿."</data>
+      <data key="d6">chunk-14a8344cd76eb646a4bb11f5bcfa450f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;润滑剂&quot;" target="&quot;视疲劳&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"润滑剂 is used as a treatment for 视疲劳 to relieve dryness."</data>
+      <data key="d6">chunk-6793fb047637e7e4381d8d717b98301a</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;角膜溃疡&quot;" target="&quot;严重眼痛&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"严重眼痛是角膜溃疡的典型症状。"</data>
+      <data key="d6">chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;角膜溃疡&quot;" target="&quot;脓性分泌物&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"脓性分泌物是角膜溃疡可能出现的症状之一。"</data>
+      <data key="d6">chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;角膜溃疡&quot;" target="&quot;白色角膜斑块&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"白色角膜斑块是角膜溃疡的身体特征之一。"</data>
+      <data key="d6">chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;角膜溃疡&quot;" target="&quot;抗生素强化滴眼&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"抗生素强化滴眼是用于角膜溃疡的细菌性感染的主要治疗方式。"</data>
+      <data key="d6">chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;角膜溃疡&quot;" target="&quot;抗真菌药&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"抗真菌药适用于治疗真菌性角膜溃疡。"</data>
+      <data key="d6">chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;角膜溃疡&quot;" target="&quot;永久瘢痕&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"角膜溃疡可能导致的严重并发症是永久瘢痕或穿孔风险。"</data>
+      <data key="d6">chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;手术引流&quot;" target="&quot;眼眶脓肿&quot;">
+      <data key="d4">20.0</data>
+      <data key="d5">"手术引流 is necessary for 眼眶脓肿 to evacuate the collection of pus effectively."</data>
+      <data key="d6">chunk-14a8344cd76eb646a4bb11f5bcfa450f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;眼眶脓肿&quot;" target="&quot;CT&quot;">
+      <data key="d4">16.0</data>
+      <data key="d5">"CT is the preferred diagnostic procedure for evaluating the extent of an 眼眶脓肿."</data>
+      <data key="d6">chunk-14a8344cd76eb646a4bb11f5bcfa450f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;黄斑裂孔&quot;" target="&quot;玻璃体切除术&quot;">
+      <data key="d4">18.0</data>
+      <data key="d5">"玻璃体切除术 is recommended to treat 黄斑裂孔 by allowing better access to and repair of the retinal area."</data>
+      <data key="d6">chunk-14a8344cd76eb646a4bb11f5bcfa450f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;中心性浆液性视网膜病变&quot;" target="&quot;光动力疗法&quot;">
+      <data key="d4">14.0</data>
+      <data key="d5">"光动力疗法 can be used to treat 中心性浆液性视网膜病变 to manage fluid accumulation under the retina."</data>
+      <data key="d6">chunk-14a8344cd76eb646a4bb11f5bcfa450f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;玻璃体混浊&quot;" target="&quot;玻璃体置换&quot;">
+      <data key="d4">14.0</data>
+      <data key="d5">"玻璃体置换 may be considered for severe cases of 玻璃体混浊 to improve visual clarity."</data>
+      <data key="d6">chunk-14a8344cd76eb646a4bb11f5bcfa450f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;飞蚊&quot;" target="&quot;视网膜裂孔&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"飞蚊是视网膜裂孔的症状之一。"</data>
+      <data key="d6">chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;模糊&quot;" target="&quot;眼震&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"模糊 is a symptom of 眼震, indicating blurred vision due to involuntary eye movements."</data>
+      <data key="d6">chunk-6793fb047637e7e4381d8d717b98301a</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;角膜擦伤&quot;" target="&quot;抗生素滴眼液&quot;">
+      <data key="d4">16.0</data>
+      <data key="d5">"抗生素滴眼液 are recommended for 角膜擦伤 to prevent bacterial infections during healing."</data>
+      <data key="d6">chunk-14a8344cd76eb646a4bb11f5bcfa450f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;角膜擦伤&quot;" target="&quot;绷带隐形眼镜&quot;">
+      <data key="d4">12.0</data>
+      <data key="d5">"绷带隐形眼镜 protect the cornea and facilitate healing in 角膜擦伤, under medical supervision."</data>
+      <data key="d6">chunk-14a8344cd76eb646a4bb11f5bcfa450f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;角膜擦伤&quot;" target="&quot;麻醉滴眼液&quot;">
+      <data key="d4">14.0</data>
+      <data key="d5">"麻醉滴眼液 are contraindicated for self-use in 角膜擦伤 due to potential complications."</data>
+      <data key="d6">chunk-14a8344cd76eb646a4bb11f5bcfa450f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;流泪&quot;" target="&quot;眼部异物&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"流泪是眼部异物对眼睛造成刺激的自然反应。"</data>
+      <data key="d6">chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;睑板腺功能障碍&quot;" target="&quot;挤压治疗&quot;">
+      <data key="d4">16.0</data>
+      <data key="d5">"挤压治疗 is a method used to treat 睑板腺功能障碍 by expressing blocked gland secretions."</data>
+      <data key="d6">chunk-14a8344cd76eb646a4bb11f5bcfa450f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;睑板腺功能障碍&quot;" target="&quot;人工泪液&quot;">
+      <data key="d4">12.0</data>
+      <data key="d5">"人工泪液 are used to alleviate symptoms of dryness associated with 睑板腺功能障碍."</data>
+      <data key="d6">chunk-14a8344cd76eb646a4bb11f5bcfa450f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;睑板腺功能障碍&quot;" target="&quot;蠕形螨&quot;">
+      <data key="d4">10.0</data>
+      <data key="d5">"蠕形螨 infestation is linked as a risk factor for contributions to inflammation in 睑板腺功能障碍."</data>
+      <data key="d6">chunk-14a8344cd76eb646a4bb11f5bcfa450f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;干涩&quot;" target="&quot;蒸发性干眼&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"干涩是蒸发性干眼的常见症状之一。"</data>
+      <data key="d6">chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;干涩&quot;" target="&quot;视疲劳&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"干涩 is a symptom of 视疲劳, causing dryness in the eyes from prolonged use."</data>
+      <data key="d6">chunk-6793fb047637e7e4381d8d717b98301a</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;视力波动&quot;" target="&quot;蒸发性干眼&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"视力波动是蒸发性干眼的症状表现。"</data>
+      <data key="d6">chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;视力波动&quot;" target="&quot;视疲劳&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"视力波动 is a symptom of 视疲劳, causing changes in vision clarity."</data>
+      <data key="d6">chunk-6793fb047637e7e4381d8d717b98301a</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;挤压治疗&quot;" target="&quot;蒸发性干眼&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"挤压治疗也是针对蒸发性干眼的推荐疗法之一。"</data>
+      <data key="d6">chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;人工泪液&quot;" target="&quot;蒸发性干眼&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"人工泪液通过润滑眼球帮助缓解蒸发性干眼的症状。"</data>
+      <data key="d6">chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;蠕形螨&quot;" target="&quot;蒸发性干眼&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"蠕形螨感染可能是蒸发性干眼的风险因素。"</data>
+      <data key="d6">chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;蒸发性干眼&quot;" target="&quot;泪膜脂层不稳&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"蒸发性干眼是由于泪膜脂层的不稳导致的。"</data>
+      <data key="d6">chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;视网膜裂孔&quot;" target="&quot;闪光&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"闪光是视网膜裂孔引发的症状。"</data>
+      <data key="d6">chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;视网膜裂孔&quot;" target="&quot;激光光凝&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"激光光凝封闭裂孔可以预防视网膜裂孔进一步发展为脱离。"</data>
+      <data key="d6">chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;恶性青光眼&quot;" target="&quot;剧痛&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"剧痛是恶性青光眼患者常见的体验。"</data>
+      <data key="d6">chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;恶性青光眼&quot;" target="&quot;高眼压&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"高眼压是恶性青光眼的一个核心症状。"</data>
+      <data key="d6">chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;恶性青光眼&quot;" target="&quot;高渗剂&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"高渗剂可帮助降低恶性青光眼的眼内压。"</data>
+      <data key="d6">chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;剧痛&quot;" target="&quot;眼表烧伤&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"剧痛 is a symptom of 眼表烧伤, representing the severe pain caused by the injury."</data>
+      <data key="d6">chunk-6793fb047637e7e4381d8d717b98301a</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;眼表烧伤&quot;" target="&quot;角膜混浊&quot;">
+      <data key="d4">17.0</data>
+      <data key="d5">"眼表烧伤可能导致角膜混浊。"&lt;SEP&gt;"角膜混浊 is a symptom of 眼表烧伤, where the injury causes the cornea to become cloudy."</data>
+      <data key="d6">chunk-2510fca2545c2e8ea2913105d1f4028c&lt;SEP&gt;chunk-6793fb047637e7e4381d8d717b98301a</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;眼表烧伤&quot;" target="&quot;大量冲洗&quot;">
+      <data key="d4">19.0</data>
+      <data key="d5">"大量冲洗 is a recommended treatment for 眼表烧伤 to remove harmful substances from the ocular surface."&lt;SEP&gt;"大量冲洗是眼表烧伤紧急处理中的基本步骤。"</data>
+      <data key="d6">chunk-2510fca2545c2e8ea2913105d1f4028c&lt;SEP&gt;chunk-6793fb047637e7e4381d8d717b98301a</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;眼表烧伤&quot;" target="&quot;激素/抗生素治疗&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"激素/抗生素治疗 is recommended for 眼表烧伤 to reduce inflammation and prevent infection."</data>
+      <data key="d6">chunk-6793fb047637e7e4381d8d717b98301a</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;眼表烧伤&quot;" target="&quot;强碱烧伤&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"强碱烧伤 is a severe risk factor for 眼表烧伤, leading to more serious damage."</data>
+      <data key="d6">chunk-6793fb047637e7e4381d8d717b98301a</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;色素性视网膜炎&quot;" target="&quot;夜盲&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"夜盲是色素性视网膜炎的早期症状。"</data>
+      <data key="d6">chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;色素性视网膜炎&quot;" target="&quot;基因治疗&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"基因治疗正在研究作为色素性视网膜炎的潜在治疗方法。"</data>
+      <data key="d6">chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;暴露性角膜炎&quot;" target="&quot;不能完全闭眼&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"不能完全闭眼是引发暴露性角膜炎的主因。"</data>
+      <data key="d6">chunk-2510fca2545c2e8ea2913105d1f4028c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;视疲劳&quot;" target="&quot;酸痛&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"酸痛 is a symptom of 视疲劳, indicating discomfort due to eye strain."</data>
+      <data key="d6">chunk-6793fb047637e7e4381d8d717b98301a</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;视疲劳&quot;" target="&quot;20-20-20 规则&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"20-20-20 规则 is recommended to help manage 视疲劳 by reducing eye strain from prolonged screen use."</data>
+      <data key="d6">chunk-6793fb047637e7e4381d8d717b98301a</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;视疲劳&quot;" target="&quot;干眼&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Dry Eye Syndrome is worsened by 视疲劳, representing a significant risk for sufferers."</data>
+      <data key="d6">chunk-6793fb047637e7e4381d8d717b98301a</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;眼震&quot;" target="&quot;头位偏斜&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"头位偏斜 is a symptom of 眼震, where involuntary movement affects head posture."</data>
+      <data key="d6">chunk-6793fb047637e7e4381d8d717b98301a</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;眼震&quot;" target="&quot;部分药物辅助&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"部分药物辅助 is used as a treatment for 眼震, providing medication support."</data>
+      <data key="d6">chunk-6793fb047637e7e4381d8d717b98301a</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;眼震&quot;" target="&quot;视功能训练&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"视功能训练 is a recommended treatment for 眼震 to improve visual processing capabilities."</data>
+      <data key="d6">chunk-6793fb047637e7e4381d8d717b98301a</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;眼震&quot;" target="&quot;手术改善头位&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"手术改善头位 is a procedure addressing symptoms of 眼震, aimed at improving head positioning."</data>
+      <data key="d6">chunk-6793fb047637e7e4381d8d717b98301a</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;眼震&quot;" target="&quot;视力低下&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"视力低下 is often associated with 眼震, indicating a potential risk factor."</data>
+      <data key="d6">chunk-6793fb047637e7e4381d8d717b98301a</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>
