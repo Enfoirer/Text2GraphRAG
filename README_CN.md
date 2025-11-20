@@ -78,6 +78,72 @@ export OPENAI_API_KEY=sk-xxxx
    ```
    控制台提供 `stats` / `rebuild` / `quit` 等命令，可直接与“明眸 RAG 疾病助手”对话。
 
+## 系统流程架构图
+
+```mermaid
+flowchart TD
+    START["🚀 启动高级图RAG系统"] --> CONFIG["⚙️ 加载配置<br/>GraphRAGConfig"]
+    CONFIG --> INIT_CHECK{"🔍 检查系统依赖"}
+    INIT_CHECK -->|Neo4j连接失败| NEO4J_ERROR["❌ Neo4j连接错误<br/>检查图数据库状态"]
+    INIT_CHECK -->|Milvus连接失败| MILVUS_ERROR["❌ Milvus连接错误<br/>检查向量数据库"]
+    INIT_CHECK -->|LLM API失败| LLM_ERROR["❌ LLM API错误<br/>检查API密钥"]
+    INIT_CHECK -->|依赖正常| INIT_MODULES["✅ 初始化核心模块"]
+    INIT_MODULES --> KB_CHECK{"📚 检查知识库状态"}
+    KB_CHECK -->|Milvus集合存在| LOAD_KB["⚡ 加载已存在知识库"]
+    KB_CHECK -->|集合不存在| BUILD_KB["🔨 构建新知识库"]
+    LOAD_KB --> LOAD_SUCCESS{"加载成功？"}
+    LOAD_SUCCESS -->|成功| SYSTEM_READY["✅ 系统就绪<br/>显示统计信息"]
+    LOAD_SUCCESS -->|失败| REBUILD_KB["🔄 重建知识库"]
+    BUILD_KB --> NEO4J_LOAD["🔗 从Neo4j加载图数据"]
+    REBUILD_KB --> NEO4J_LOAD
+    NEO4J_LOAD --> BUILD_DOCS["📝 构建结构化文档"]
+    BUILD_DOCS --> CHUNK_DOCS["✂️ 文档分块"]
+    CHUNK_DOCS --> BUILD_VECTOR["🎯 构建Milvus向量索引"]
+    BUILD_VECTOR --> SYSTEM_READY
+    SYSTEM_READY --> USER_INPUT["👤 用户输入查询"]
+    USER_INPUT --> SPECIAL_CMD{"🔍 特殊命令？"}
+    SPECIAL_CMD -->|stats| STATS["📊 查看统计"]
+    SPECIAL_CMD -->|rebuild| REBUILD_CMD["🔄 重建知识库命令"]
+    SPECIAL_CMD -->|quit| EXIT["👋 退出系统"]
+    SPECIAL_CMD -->|普通查询| QUERY_ANALYSIS["🧠 深度查询分析"]
+    QUERY_ANALYSIS --> COMPLEXITY_ANALYSIS["📊 复杂度分析"]
+    QUERY_ANALYSIS --> RELATION_ANALYSIS["🔗 关系密集度分析"]
+    QUERY_ANALYSIS --> REASONING_ANALYSIS["🤔 推理需求判断"]
+    QUERY_ANALYSIS --> ENTITY_ANALYSIS["🏷️ 实体识别统计"]
+    COMPLEXITY_ANALYSIS --> LLM_ANALYSIS["🤖 LLM综合分析"]
+    RELATION_ANALYSIS --> LLM_ANALYSIS
+    REASONING_ANALYSIS --> LLM_ANALYSIS
+    ENTITY_ANALYSIS --> LLM_ANALYSIS
+    LLM_ANALYSIS --> ANALYSIS_SUCCESS{"分析成功？"}
+    ANALYSIS_SUCCESS -->|成功| ROUTE_DECISION["🎯 智能路由决策"]
+    ANALYSIS_SUCCESS -->|失败| RULE_FALLBACK["📋 规则降级分析"]
+    RULE_FALLBACK --> ROUTE_DECISION
+    ROUTE_DECISION -->|简单查询| HYBRID_SEARCH["🔍 传统混合检索"]
+    ROUTE_DECISION -->|复杂推理| GRAPH_RAG_SEARCH["🕸️ 图RAG检索"]
+    ROUTE_DECISION -->|组合策略| COMBINED_SEARCH["🔄 组合检索"]
+    HYBRID_SEARCH --> HYBRID_SUCCESS{"检索成功？"}
+    GRAPH_RAG_SEARCH --> GRAPH_SUCCESS{"检索成功？"}
+    COMBINED_SEARCH --> COMBINED_SUCCESS{"检索成功？"}
+    GRAPH_SUCCESS -->|失败| FALLBACK_TO_HYBRID["⬇️ 降级到混合检索"]
+    COMBINED_SUCCESS -->|失败| FALLBACK_TO_HYBRID
+    HYBRID_SUCCESS -->|失败| SYSTEM_ERROR["❌ 传统检索失败"]
+    FALLBACK_TO_HYBRID --> FALLBACK_SUCCESS{"成功？"}
+    FALLBACK_SUCCESS -->|失败| SYSTEM_ERROR
+    HYBRID_SUCCESS -->|成功| GENERATE["🎨 LLM生成回答"]
+    GRAPH_SUCCESS -->|成功| GENERATE
+    COMBINED_SUCCESS -->|成功| GENERATE
+    FALLBACK_SUCCESS -->|成功| GENERATE
+    GENERATE --> STREAM_OUTPUT["📺 流式输出回答"]
+    STREAM_OUTPUT --> UPDATE_STATS["📈 更新统计"]
+    UPDATE_STATS --> USER_INPUT
+    STATS --> USER_INPUT
+    REBUILD_CMD --> BUILD_KB
+    NEO4J_ERROR --> EXIT
+    MILVUS_ERROR --> EXIT
+    LLM_ERROR --> EXIT
+    SYSTEM_ERROR --> USER_INPUT
+```
+
 ## 常见问题
 
 | 问题 | 解决方案 |
