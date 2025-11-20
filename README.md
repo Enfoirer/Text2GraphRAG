@@ -1,8 +1,8 @@
-# Graph-RAG Ophthalmology Assistant
+# Graph-RAG Disease Assistant
 
 ## Overview
 
-Text-Graph-RAG is a Graph Retrieval-Augmented Generation system tailored for ophthalmic diseases. It combines:
+Text-Graph-RAG is a Graph Retrieval-Augmented Generation system for disease content (the bundled demo uses ophthalmology data). It combines:
 
 1. **Knowledge Graph Construction** – `ingest.py` relies on the lightweight `nano_graphrag` pipeline to chunk Markdown documents (e.g., `demo_data/eyes.md`), extract diseases / symptoms / treatments, and populate Neo4j (Disease, Symptom, Treatment, Medication, RiskFactor, CareTip).
 2. **Hybrid Question Answering** – `main.py` orchestrates `GraphDataPreparationModule`, `MilvusIndexConstructionModule`, `HybridRetrievalModule`, `GraphRAGRetrieval`, `IntelligentQueryRouter`, and the OpenAI-powered `GenerationIntegrationModule` to answer user questions with graph-aware reasoning.

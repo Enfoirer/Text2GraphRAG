@@ -2,3 +2,6 @@ volumes/
 __pycache__/
 *.log
 .DS_Store
+.nano_cache/
+.nano_cache*
+__pycache__/

@@ -1,8 +1,8 @@
-# 图谱驱动的眼科疾病 RAG 系统
+# 图谱驱动的疾病 RAG 系统
 
 ## 概述
 
-Text-Graph-RAG 项目将 Neo4j 图数据库、Milvus 向量库与 OpenAI LLM 结合，构建了一个能够“看懂”眼科疾病文档、并在问答阶段自动选择检索策略的 Graph RAG 系统。项目包含两条主线：
+Text-Graph-RAG 项目将 Neo4j 图数据库、Milvus 向量库与 OpenAI LLM 结合，构建了一个能够“看懂”疾病类文档、并在问答阶段自动选择检索策略的 Graph RAG 系统（示例数据为眼科疾病）。项目包含两条主线：
 
 1. **图谱构建**：`ingest.py` + `rag_modules/text_to_graph_ingestor.py` 负责解析 `demo_data/` 下的 Markdown，利用 nano-graphrag 抽取实体/关系，落地到 Neo4j（Disease/Symptom/Treatment/Medication/...）。
 2. **问答系统**：`main.py` 调度 `GraphDataPreparationModule`、`MilvusIndexConstructionModule`、`HybridRetrievalModule`、`GraphRAGRetrieval`、`IntelligentQueryRouter` 等模块，实现传统检索 + 图检索 + 流式回答。
