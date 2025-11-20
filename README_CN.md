@@ -90,13 +90,16 @@ flowchart TD
     INIT_CHECK -->|依赖正常| INIT_MODULES["✅ 初始化核心模块"]
     INIT_MODULES --> KB_CHECK{"📚 检查知识库状态"}
     KB_CHECK -->|Milvus集合存在| LOAD_KB["⚡ 加载已存在知识库"]
-    KB_CHECK -->|集合不存在| BUILD_KB["🔨 构建新知识库"]
+    KB_CHECK -->|集合不存在| BUILD_KB["🔨 构建/更新知识库"]
     LOAD_KB --> LOAD_SUCCESS{"加载成功？"}
     LOAD_SUCCESS -->|成功| SYSTEM_READY["✅ 系统就绪<br/>显示统计信息"]
     LOAD_SUCCESS -->|失败| REBUILD_KB["🔄 重建知识库"]
-    BUILD_KB --> NEO4J_LOAD["🔗 从Neo4j加载图数据"]
-    REBUILD_KB --> NEO4J_LOAD
-    NEO4J_LOAD --> BUILD_DOCS["📝 构建结构化文档"]
+    BUILD_KB --> INGEST_FLOW["📥 Ingest 入口<br/>ingest.py --domain medical"]
+    REBUILD_KB --> INGEST_FLOW
+    INGEST_FLOW --> MARKDOWN_LOAD["📄 读取 Markdown<br/>demo_data/eyes.md 等"]
+    MARKDOWN_LOAD --> NANO_GRAPHRAG["🧩 nano_graphrag 抽取<br/>chunk + 实体/关系"]
+    NANO_GRAPHRAG --> NEO4J_LOAD["🔗 落地 Neo4j<br/>Disease/Symptom/..."]
+    NEO4J_LOAD --> BUILD_DOCS["📝 构建结构化文档<br/>症状/治疗/风险/护理汇总"]
     BUILD_DOCS --> CHUNK_DOCS["✂️ 文档分块"]
     CHUNK_DOCS --> BUILD_VECTOR["🎯 构建Milvus向量索引"]
     BUILD_VECTOR --> SYSTEM_READY
